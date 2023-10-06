@@ -11,11 +11,13 @@ int main() {
         total_cycles_enabled += cm_get_last_access_cycles();
     }
     printf("%d total cycles with cache enabled\n", total_cycles_enabled);
+    printf("Expected value %d", total_cycles_enabled / 100000);
     cm_disable_cache();
     for (int i = 0; i < 100000; i++) {
         cm_do_access(rand_int(CM_ADDRESS_SPACE_SIZE));
         total_cycles_disabled += cm_get_last_access_cycles();
     }
     printf("%d total cycles with cache disabled\n", total_cycles_disabled);
+    printf("Expected value %d", total_cycles_disabled / 100000);
     return 0;
 }

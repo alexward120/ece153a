@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_xbar_0_synth_1" LaunchDir="C:/Users/zande/Documents/VSCODE/School Stuff/ece153a/HardwareSetup/lab2a/lab2a.runs/system_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_microblaze_0_axi_intc_0_synth_1" LaunchDir="C:/Users/zande/Documents/VSCODE/School Stuff/ece153a/HardwareSetup/lab2a/lab2a.runs/system_microblaze_0_axi_intc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_gpio_0_3_synth_1" LaunchDir="C:/Users/zande/Documents/VSCODE/School Stuff/ece153a/HardwareSetup/lab2a/lab2a.runs/system_axi_gpio_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_gpio_0_5_synth_1" LaunchDir="C:/Users/zande/Documents/VSCODE/School Stuff/ece153a/HardwareSetup/lab2a/lab2a.runs/system_axi_gpio_0_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

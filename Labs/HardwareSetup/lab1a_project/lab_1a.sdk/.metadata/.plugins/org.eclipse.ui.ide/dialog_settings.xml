@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab1a_project\lab_1a.sdk\lab1_sdk"/>
+		<item value="C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\lab1_sdk"/>
+	</list>
+	<section name="NewWizardAction">
+	</section>
+</section>

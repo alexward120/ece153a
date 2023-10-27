@@ -1,0 +1,2785 @@
+18:03:08 **** Build of project lab2_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/sevenSeg_v1_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/sevenSeg_v1_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling sevenSeg..."
+In file included from sevenSeg_selftest.c:3:
+sevenSeg_selftest.c: In function 'SEVENSEG_Reg_SelfTest':
+sevenSeg.h:46:4: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^~~~~~~~~
+sevenSeg_selftest.c:50:4: note: in expansion of macro 'SEVENSEG_mWriteReg'
+    SEVENSEG_mWriteReg (baseaddr, write_loop_index*4, (write_loop_index+1)*READ_WRITE_MUL_FACTOR);
+    ^~~~~~~~~~~~~~~~~~
+sevenSeg.h:66:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     Xil_In32((BaseAddress) + (RegOffset))
+     ^~~~~~~~
+sevenSeg_selftest.c:52:9: note: in expansion of macro 'SEVENSEG_mReadReg'
+    if ( SEVENSEG_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+         ^~~~~~~~~~~~~~~~~
+sevenSeg_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+18:03:13 **** Auto Build of project lab2_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/sevenSeg_v1_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/sevenSeg_v1_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling sevenSeg..."
+In file included from sevenSeg_selftest.c:3:
+sevenSeg_selftest.c: In function 'SEVENSEG_Reg_SelfTest':
+sevenSeg.h:46:4: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^~~~~~~~~
+sevenSeg_selftest.c:50:4: note: in expansion of macro 'SEVENSEG_mWriteReg'
+    SEVENSEG_mWriteReg (baseaddr, write_loop_index*4, (write_loop_index+1)*READ_WRITE_MUL_FACTOR);
+    ^~~~~~~~~~~~~~~~~~
+sevenSeg.h:66:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     Xil_In32((BaseAddress) + (RegOffset))
+     ^~~~~~~~
+sevenSeg_selftest.c:52:9: note: in expansion of macro 'SEVENSEG_mReadReg'
+    if ( SEVENSEG_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+         ^~~~~~~~~~~~~~~~~
+sevenSeg_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+18:03:18 **** Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3000	    344	   3104	   6448	   1930	lab2.elf
+Finished building: lab2.elf.size
+ 
+18:03:26 **** Auto Build of project lab2_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+18:03:30 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3000	    344	   3104	   6448	   1930	lab2.elf
+Finished building: lab2.elf.size
+ 
+18:04:10 **** Clean-only build of configuration Debug for project lab2 ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  lab2.elf.size  lab2.elf
+ 
+18:04:10 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3000	    344	   8224	  11568	   2d30	lab2.elf
+Finished building: lab2.elf.size
+ 
+18:04:45 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2888	    344	   8224	  11456	   2cc0	lab2.elf
+Finished building: lab2.elf.size
+ 
+18:05:27 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:06:41 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:10:15 **** Clean-only build of configuration Debug for project lab2 ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  lab2.elf.size  lab2.elf
+ 
+18:10:16 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2888	    344	   8224	  11456	   2cc0	lab2.elf
+Finished building: lab2.elf.size
+ 
+18:10:43 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2888	    344	   8224	  11456	   2cc0	lab2.elf
+Finished building: lab2.elf.size
+ 
+20:02:12 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:68:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2888	    344	   8224	  11456	   2cc0	lab2.elf
+Finished building: lab2.elf.size
+ 
+20:03:53 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2496	    344	   8224	  11064	   2b38	lab2.elf
+Finished building: lab2.elf.size
+ 
+20:04:10 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2532	    344	   8228	  11104	   2b60	lab2.elf
+Finished building: lab2.elf.size
+ 
+20:12:16 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:71:8: error: unknown type name 'Xuint16'
+ static Xuint16 state = 0b11; // State of encoder
+        ^~~~~~~
+../src/main.c:79:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main.c:71:16: warning: 'state' defined but not used [-Wunused-variable]
+ static Xuint16 state = 0b11; // State of encoder
+                ^~~~~
+../src/main.c:69:12: warning: 'encoder_count' defined but not used [-Wunused-variable]
+ static int encoder_count = 4; // Encoder count
+            ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+20:14:28 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:72:8: error: unknown type name 'Xuint16'
+ static Xuint16 state = 0b11; // State of encoder
+        ^~~~~~~
+../src/main.c:80:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main.c:72:16: warning: 'state' defined but not used [-Wunused-variable]
+ static Xuint16 state = 0b11; // State of encoder
+                ^~~~~
+../src/main.c:70:12: warning: 'encoder_count' defined but not used [-Wunused-variable]
+ static int encoder_count = 4; // Encoder count
+            ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+20:14:49 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:80:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main.c:72:17: warning: 'state' defined but not used [-Wunused-variable]
+ static uint16_t state = 0b11; // State of encoder
+                 ^~~~~
+../src/main.c:70:12: warning: 'encoder_count' defined but not used [-Wunused-variable]
+ static int encoder_count = 4; // Encoder count
+            ^~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2532	    344	   8228	  11104	   2b60	lab2.elf
+Finished building: lab2.elf.size
+ 
+20:17:02 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:79:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main.c:71:12: warning: 'state' defined but not used [-Wunused-variable]
+ static u16 state = 0b11; // State of encoder
+            ^~~~~
+../src/main.c:69:12: warning: 'encoder_count' defined but not used [-Wunused-variable]
+ static int encoder_count = 4; // Encoder count
+            ^~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2532	    344	   8228	  11104	   2b60	lab2.elf
+Finished building: lab2.elf.size
+ 
+20:49:58 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:79:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main.c:71:12: warning: 'state' defined but not used [-Wunused-variable]
+ static u16 state = 0b11; // State of encoder
+            ^~~~~
+../src/main.c:69:12: warning: 'encoder_count' defined but not used [-Wunused-variable]
+ static int encoder_count = 4; // Encoder count
+            ^~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2892	    344	   8228	  11464	   2cc8	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:40:49 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:78:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main.c: In function 'Encoder_Handler':
+../src/main.c:120:41: error: incompatible type for argument 1 of 'XGpio_DiscreteRead'
+  u32 encoderStatus = XGpio_DiscreteRead(Encoder_Gpio, ENCODER_CHANNEL);
+                                         ^~~~~~~~~~~~
+In file included from ../src/main.c:56:
+../../lab2_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+21:41:45 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:78:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15228	    816	   8476	  24520	   5fc8	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:41:50 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:78:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main.c: In function 'Encoder_Handler':
+../src/main.c:121:37: error: incompatible type for argument 1 of 'XGpio_DiscreteRead'
+  encoderStatus = XGpio_DiscreteRead(Encoder_Gpio, ENCODER_CHANNEL);
+                                     ^~~~~~~~~~~~
+In file included from ../src/main.c:56:
+../../lab2_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+21:41:53 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:78:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15228	    816	   8476	  24520	   5fc8	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:42:05 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:78:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15224	    816	   8472	  24512	   5fc0	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:42:20 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:80:1: error: expected ';', identifier or '(' before 'void'
+ void LED_Press(int toggle) {
+ ^~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+21:42:22 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:78:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15224	    816	   8472	  24512	   5fc0	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:43:52 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15224	    816	   8472	  24512	   5fc0	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:47:12 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:47:53 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:43 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15224	    816	   8472	  24512	   5fc0	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:48:44 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:49:00 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15224	    816	   8472	  24512	   5fc0	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:49:02 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:56 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15032	    816	   8472	  24320	   5f00	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:51:22 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Encoder_Handler':
+../src/main.c:116:2: warning: implicit declaration of function 'test_rgb_blink' [-Wimplicit-function-declaration]
+  test_rgb_blink();
+  ^~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main.o: in function `Encoder_Handler':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:116: undefined reference to `test_rgb_blink'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+21:51:45 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Encoder_Handler':
+../src/main.c:123:2: warning: implicit declaration of function 'test_rgb_blink'; did you mean 'test_rbg_blink'? [-Wimplicit-function-declaration]
+  test_rgb_blink();
+  ^~~~~~~~~~~~~~
+  test_rbg_blink
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main.o: in function `Encoder_Handler':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:123: undefined reference to `test_rgb_blink'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+21:52:04 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15224	    816	   8472	  24512	   5fc0	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:52:07 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:54:27 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15308	    816	   8476	  24600	   6018	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:54:29 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:04 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15264	    816	   8472	  24552	   5fe8	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:55:05 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:42 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15308	    816	   8476	  24600	   6018	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:55:45 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:56:37 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:327:30: error: 's' undeclared (first use in this function); did you mean 's8'?
+  while(1) {test_rbg_blink();}s
+                              ^
+                              s8
+../src/main.c:327:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:327:31: error: expected ';' before 'return'
+  while(1) {test_rbg_blink();}s
+                               ^
+                               ;
+../src/main.c:329:5:
+     return 0;
+     ~~~~~~                     
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+21:56:38 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15236	    816	   8476	  24528	   5fd0	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:56:40 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:59:28 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15292	    816	   8476	  24584	   6008	lab2.elf
+Finished building: lab2.elf.size
+ 
+21:59:34 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:00:54 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:09:11 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:12:54 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15292	    816	   8476	  24584	   6008	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:13:10 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15340	    816	   8476	  24632	   6038	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:13:13 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:13:49 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:17:27 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15292	    816	   8476	  24584	   6008	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:17:30 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:18:04 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:25:45 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15328	    816	   8472	  24616	   6028	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:26:11 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15336	    816	   8472	  24624	   6030	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:26:25 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15344	    816	   8472	  24632	   6038	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:27:35 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Encoder_Handler':
+../src/main.c:231:23: warning: passing argument 1 of 'XGpio_InterruptClear' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptClear(&GpioPtr, ENCODER_CHANNEL); //clear the interrupt
+                       ^~~~~~~~
+In file included from ../src/main.c:56:
+../../lab2_bsp/microblaze_0/include/xgpio.h:202:34: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio **' {aka 'struct <anonymous> **'}
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+                           ~~~~~~~^~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15364	    816	   8476	  24656	   6050	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:27:42 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15360	    816	   8472	  24648	   6048	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:29:47 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:44 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15360	    816	   8472	  24648	   6048	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:42:58 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/bs/le/m/crtinit.o: in function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+22:46:54 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+../src/main2.c: In function 'initPeripherals':
+../src/main2.c:170:30: error: 'XPAR_LEDS_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_MDM_1_DEVICE_ID'?
+  XGpio_Initialize(&per_leds, XPAR_LEDS_DEVICE_ID);
+                              ^~~~~~~~~~~~~~~~~~~
+                              XPAR_MDM_1_DEVICE_ID
+../src/main2.c:170:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/main2.c:173:33: error: 'XPAR_RGB_LED_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_GPIO_0_DEVICE_ID'?
+  XGpio_Initialize(&per_rgbleds, XPAR_RGB_LED_DEVICE_ID);
+                                 ^~~~~~~~~~~~~~~~~~~~~~
+                                 XPAR_GPIO_0_DEVICE_ID
+../src/main2.c:176:33: error: 'XPAR_ENCODER_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_GPIO_0_DEVICE_ID'?
+  XGpio_Initialize(&per_encoder, XPAR_ENCODER_DEVICE_ID);
+                                 ^~~~~~~~~~~~~~~~~~~~~~
+                                 XPAR_GPIO_0_DEVICE_ID
+../src/main2.c: In function 'registerInterruptHandlers':
+../src/main2.c:189:3: error: 'XPAR_MICROBLAZE_0_AXI_INTC_ENCODER_IP2INTC_IRPT_INTR' undeclared (first use in this function); did you mean 'XPAR_MICROBLAZE_0_AXI_INTC_AXI_GPIO_ENCODER_IP2INTC_IRPT_INTR'?
+   XPAR_MICROBLAZE_0_AXI_INTC_ENCODER_IP2INTC_IRPT_INTR,
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_MICROBLAZE_0_AXI_INTC_AXI_GPIO_ENCODER_IP2INTC_IRPT_INTR
+make: *** [src/subdir.mk:29: src/main2.o] Error 1
+22:51:18 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10072	    448	   8480	  19000	   4a38	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:51:52 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:55:40 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'initialization':
+../src/main2.c:218:43: error: 'XPAR_AXI_GPIO_RGB_LED_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_GPIO_LED_DEVICE_ID'?
+  Status = XGpio_Initialize(&rgb_led_gpio, XPAR_AXI_GPIO_RGB_LED_DEVICE_ID);
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           XPAR_AXI_GPIO_LED_DEVICE_ID
+../src/main2.c:218:43: note: each undeclared identifier is reported only once for each function it appears in
+../src/main2.c:221:39: error: 'XPAR_ENCODER_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_GPIO_0_DEVICE_ID'?
+  Status = XGpio_Initialize(&enc_gpio, XPAR_ENCODER_DEVICE_ID);
+                                       ^~~~~~~~~~~~~~~~~~~~~~
+                                       XPAR_GPIO_0_DEVICE_ID
+../src/main2.c:222:29: error: 'XPAR_MICROBLAZE_0_AXI_INTC_ENCODER_IP2INTC_IRPT_INTR' undeclared (first use in this function); did you mean 'XPAR_MICROBLAZE_0_AXI_INTC_AXI_GPIO_ENCODER_IP2INTC_IRPT_INTR'?
+  XIntc_Connect(&sys_intctr, XPAR_MICROBLAZE_0_AXI_INTC_ENCODER_IP2INTC_IRPT_INTR,
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                             XPAR_MICROBLAZE_0_AXI_INTC_AXI_GPIO_ENCODER_IP2INTC_IRPT_INTR
+make: *** [src/subdir.mk:29: src/main2.o] Error 1
+22:56:56 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:24: multiple definition of `toggle'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:69: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:26: multiple definition of `led_16'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:71: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `left_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:43: multiple definition of `left_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:95: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `right_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:52: multiple definition of `right_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:104: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+22:57:15 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/bs/le/m/crtinit.o: in function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+22:57:22 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/bs/le/m/crtinit.o: in function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+22:58:00 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:24: multiple definition of `toggle'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:69: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:26: multiple definition of `led_16'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:71: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `left_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:43: multiple definition of `left_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:95: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `right_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:52: multiple definition of `right_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:104: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+22:58:11 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    452	   8484	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+22:58:13 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:02:53 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15360	    816	   8472	  24648	   6048	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:05:19 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'enc_handler':
+../src/main.c:230:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 encoderStatus = 0;
+  ^~~~~~~
+  sint32
+../src/main.c:232:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+  ^~~~~~~
+  sint32
+In file included from ../../lab2_bsp/microblaze_0/include/xtmrctr.h:180,
+                 from ../src/main.c:53:
+../src/main.c:232:45: error: 'sys_tmrctr' undeclared (first use in this function); did you mean 'strstr'?
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                                             ^~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main.c:232:18: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:232:45: note: each undeclared identifier is reported only once for each function it appears in
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                                             ^~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main.c:232:18: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:233:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 finish = start;
+  ^~~~~~~
+  sint32
+../src/main.c:239:38: error: 'enc_gpio' undeclared (first use in this function); did you mean 'LED_Gpio'?
+  encoderStatus = XGpio_DiscreteRead(&enc_gpio, ENCODER_CHANNEL);
+                                      ^~~~~~~~
+                                      LED_Gpio
+../src/main.c:249:3: warning: implicit declaration of function 'LED_press'; did you mean 'LED_Press'? [-Wimplicit-function-declaration]
+   LED_press(toggle);
+   ^~~~~~~~~
+   LED_Press
+../src/main.c: In function 'initialize':
+../src/main.c:408:23: error: 'Encoder_Handler' undeclared (first use in this function); did you mean 'Timer_Handler'?
+    (XInterruptHandler)Encoder_Handler, &Encoder_Gpio);
+                       ^~~~~~~~~~~~~~~
+                       Timer_Handler
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+23:05:34 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'enc_handler':
+../src/main.c:230:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 encoderStatus = 0;
+  ^~~~~~~
+  sint32
+../src/main.c:232:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+  ^~~~~~~
+  sint32
+In file included from ../../lab2_bsp/microblaze_0/include/xtmrctr.h:180,
+                 from ../src/main.c:53:
+../src/main.c:232:45: error: 'sys_tmrctr' undeclared (first use in this function); did you mean 'strstr'?
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                                             ^~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main.c:232:18: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:232:45: note: each undeclared identifier is reported only once for each function it appears in
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                                             ^~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main.c:232:18: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:233:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 finish = start;
+  ^~~~~~~
+  sint32
+../src/main.c:239:38: error: 'enc_gpio' undeclared (first use in this function); did you mean 'LED_Gpio'?
+  encoderStatus = XGpio_DiscreteRead(&enc_gpio, ENCODER_CHANNEL);
+                                      ^~~~~~~~
+                                      LED_Gpio
+../src/main.c:249:3: warning: implicit declaration of function 'LED_press'; did you mean 'LED_Press'? [-Wimplicit-function-declaration]
+   LED_press(toggle);
+   ^~~~~~~~~
+   LED_Press
+../src/main.c: In function 'initialize':
+../src/main.c:408:23: error: 'Encoder_Handler' undeclared (first use in this function); did you mean 'Timer_Handler'?
+    (XInterruptHandler)Encoder_Handler, &Encoder_Gpio);
+                       ^~~~~~~~~~~~~~~
+                       Timer_Handler
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+23:06:37 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'EncoderHandler':
+../src/main.c:230:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 encoderStatus = 0;
+  ^~~~~~~
+  sint32
+../src/main.c:232:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(TimerCounter.BaseAddress, 0);
+  ^~~~~~~
+  sint32
+../src/main.c:233:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 finish = start;
+  ^~~~~~~
+  sint32
+In file included from ../../lab2_bsp/microblaze_0/include/xtmrctr.h:180,
+                 from ../src/main.c:53:
+../src/main.c:236:39: error: 'sys_tmrctr' undeclared (first use in this function); did you mean 'strstr'?
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                                       ^~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main.c:236:12: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:236:39: note: each undeclared identifier is reported only once for each function it appears in
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                                       ^~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main.c:236:12: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:249:3: warning: implicit declaration of function 'LED_press'; did you mean 'LED_Press'? [-Wimplicit-function-declaration]
+   LED_press(toggle);
+   ^~~~~~~~~
+   LED_Press
+../src/main.c: In function 'initialize':
+../src/main.c:408:23: error: 'Encoder_Handler' undeclared (first use in this function); did you mean 'EncoderHandler'?
+    (XInterruptHandler)Encoder_Handler, &Encoder_Gpio);
+                       ^~~~~~~~~~~~~~~
+                       EncoderHandler
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+23:06:56 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Encoder_Handler':
+../src/main.c:230:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 encoderStatus = 0;
+  ^~~~~~~
+  sint32
+../src/main.c:232:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(TimerCounter.BaseAddress, 0);
+  ^~~~~~~
+  sint32
+../src/main.c:233:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 finish = start;
+  ^~~~~~~
+  sint32
+In file included from ../../lab2_bsp/microblaze_0/include/xtmrctr.h:180,
+                 from ../src/main.c:53:
+../src/main.c:236:39: error: 'sys_tmrctr' undeclared (first use in this function); did you mean 'strstr'?
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                                       ^~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main.c:236:12: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:236:39: note: each undeclared identifier is reported only once for each function it appears in
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                                       ^~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main.c:236:12: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:249:3: warning: implicit declaration of function 'LED_press'; did you mean 'LED_Press'? [-Wimplicit-function-declaration]
+   LED_press(toggle);
+   ^~~~~~~~~
+   LED_Press
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+23:07:02 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Encoder_Handler':
+../src/main.c:230:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 encoderStatus = 0;
+  ^~~~~~~
+  sint32
+../src/main.c:232:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 start = XTmrCtr_GetTimerCounterReg(TimerCounter.BaseAddress, 0);
+  ^~~~~~~
+  sint32
+../src/main.c:233:2: error: unknown type name 'Xuint32'; did you mean 'sint32'?
+  Xuint32 finish = start;
+  ^~~~~~~
+  sint32
+In file included from ../../lab2_bsp/microblaze_0/include/xtmrctr.h:180,
+                 from ../src/main.c:53:
+../src/main.c:236:39: error: 'sys_tmrctr' undeclared (first use in this function); did you mean 'strstr'?
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                                       ^~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main.c:236:12: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:236:39: note: each undeclared identifier is reported only once for each function it appears in
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+                                       ^~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main.c:236:12: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+   finish = XTmrCtr_GetTimerCounterReg(sys_tmrctr.BaseAddress, 0);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:249:3: warning: implicit declaration of function 'LED_press'; did you mean 'LED_Press'? [-Wimplicit-function-declaration]
+   LED_press(toggle);
+   ^~~~~~~~~
+   LED_Press
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+23:08:26 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Encoder_Handler':
+../src/main.c:116:2: warning: implicit declaration of function 'test_rbg_blink' [-Wimplicit-function-declaration]
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:306:6: warning: conflicting types for 'test_rbg_blink'
+ void test_rbg_blink() {
+      ^~~~~~~~~~~~~~
+../src/main.c:116:2: note: previous implicit declaration of 'test_rbg_blink' was here
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:24: multiple definition of `toggle'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:69: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:26: multiple definition of `led_16'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:71: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `left_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:43: multiple definition of `left_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:88: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `right_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:52: multiple definition of `right_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:97: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:245: multiple definition of `main'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:314: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:08:54 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    452	   8484	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:08:56 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:13:21 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'main':
+../src/main2.c:330:4: warning: implicit declaration of function 'initialization'; did you mean 'initialize'? [-Wimplicit-function-declaration]
+    initialization();
+    ^~~~~~~~~~~~~~
+    initialize
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:330: undefined reference to `initialization'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:13:39 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:330: undefined reference to `initialization'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:14:00 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'main':
+../src/main2.c:330:4: warning: implicit declaration of function 'intitialize'; did you mean 'initialize'? [-Wimplicit-function-declaration]
+    intitialize();
+    ^~~~~~~~~~~
+    initialize
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:330: undefined reference to `intitialize'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:14:21 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15300	    816	   8484	  24600	   6018	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:14:39 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:16:24 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'main':
+../src/main2.c:283:3: warning: implicit declaration of function 'test_rbg_blink'; did you mean 'rgb_blink'? [-Wimplicit-function-declaration]
+   test_rbg_blink();
+   ^~~~~~~~~~~~~~
+   rgb_blink
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:283: undefined reference to `test_rbg_blink'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:16:28 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:283: undefined reference to `test_rbg_blink'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:16:55 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'main':
+../src/main2.c:283:3: warning: implicit declaration of function 'rbg_blink'; did you mean 'rgb_blink'? [-Wimplicit-function-declaration]
+   rbg_blink();
+   ^~~~~~~~~
+   rgb_blink
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:283: undefined reference to `rbg_blink'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:17:01 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14696	    816	   8480	  23992	   5db8	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:17:08 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:19:00 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+In file included from ../../lab2_bsp/microblaze_0/include/xtmrctr.h:180,
+                 from ../src/main2.c:4:
+../src/main2.c: In function 'Encoder_Handler':
+../src/main2.c:197:41: error: 'TimerCounter' undeclared (first use in this function); did you mean 'timer_handler'?
+  u32 start = XTmrCtr_GetTimerCounterReg(TimerCounter.BaseAddress, 0);
+                                         ^~~~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main2.c:197:14: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+  u32 start = XTmrCtr_GetTimerCounterReg(TimerCounter.BaseAddress, 0);
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main2.c:197:41: note: each undeclared identifier is reported only once for each function it appears in
+  u32 start = XTmrCtr_GetTimerCounterReg(TimerCounter.BaseAddress, 0);
+                                         ^~~~~~~~~~~~
+../../lab2_bsp/microblaze_0/include/xtmrctr_l.h:196:12: note: in definition of macro 'XTmrCtr_ReadReg'
+  Xil_In32((BaseAddress) + XTmrCtr_Offsets[(TmrCtrNumber)] + \
+            ^~~~~~~~~~~
+../src/main2.c:197:14: note: in expansion of macro 'XTmrCtr_GetTimerCounterReg'
+  u32 start = XTmrCtr_GetTimerCounterReg(TimerCounter.BaseAddress, 0);
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main2.c:214:3: warning: implicit declaration of function 'LED_Press'; did you mean 'LED_press'? [-Wimplicit-function-declaration]
+   LED_Press(toggle);
+   ^~~~~~~~~
+   LED_press
+../src/main2.c: In function 'initialization':
+../src/main2.c:337:26: error: 'enc_handler' undeclared (first use in this function); did you mean 'timer_handler'?
+    (Xil_ExceptionHandler)enc_handler, &enc_gpio);
+                          ^~~~~~~~~~~
+                          timer_handler
+../src/main2.c: In function 'main':
+../src/main2.c:368:4: warning: implicit declaration of function 'initialize'; did you mean 'initialization'? [-Wimplicit-function-declaration]
+    initialize();
+    ^~~~~~~~~~
+    initialization
+make: *** [src/subdir.mk:29: src/main2.o] Error 1
+23:19:22 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'Encoder_Handler':
+../src/main2.c:214:3: warning: implicit declaration of function 'LED_Press'; did you mean 'LED_press'? [-Wimplicit-function-declaration]
+   LED_Press(toggle);
+   ^~~~~~~~~
+   LED_press
+../src/main2.c: In function 'initialization':
+../src/main2.c:337:26: error: 'enc_handler' undeclared (first use in this function); did you mean 'timer_handler'?
+    (Xil_ExceptionHandler)enc_handler, &enc_gpio);
+                          ^~~~~~~~~~~
+                          timer_handler
+../src/main2.c:337:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/main2.c: In function 'main':
+../src/main2.c:368:4: warning: implicit declaration of function 'initialize'; did you mean 'initialization'? [-Wimplicit-function-declaration]
+    initialize();
+    ^~~~~~~~~~
+    initialization
+make: *** [src/subdir.mk:29: src/main2.o] Error 1
+23:19:34 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'Encoder_Handler':
+../src/main2.c:214:3: warning: implicit declaration of function 'LED_Press'; did you mean 'LED_press'? [-Wimplicit-function-declaration]
+   LED_Press(toggle);
+   ^~~~~~~~~
+   LED_press
+../src/main2.c: In function 'main':
+../src/main2.c:368:4: warning: implicit declaration of function 'initialize'; did you mean 'initialization'? [-Wimplicit-function-declaration]
+    initialize();
+    ^~~~~~~~~~
+    initialization
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:368: undefined reference to `initialize'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:19:58 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'Encoder_Handler':
+../src/main2.c:214:3: warning: implicit declaration of function 'LED_Press'; did you mean 'LED_press'? [-Wimplicit-function-declaration]
+   LED_Press(toggle);
+   ^~~~~~~~~
+   LED_press
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `Encoder_Handler':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:214: undefined reference to `LED_Press'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:20:16 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9716	    452	   8488	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:20:20 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:22:15 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'initialization':
+../src/main2.c:229:26: error: 'Encoder_Handler' undeclared (first use in this function); did you mean 'enc_handler'?
+    (Xil_ExceptionHandler)Encoder_Handler, &enc_gpio);
+                          ^~~~~~~~~~~~~~~
+                          enc_handler
+../src/main2.c:229:26: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:29: src/main2.o] Error 1
+23:22:31 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    452	   8484	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:22:33 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:23:45 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'right_overflow':
+../src/main2.c:76:22: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_DiscreteWrite(&led_16, LED_CHANNEL, led_16);
+                      ^~~~~~~
+In file included from ../src/main2.c:8:
+../../lab2_bsp/microblaze_0/include/xgpio.h:181:33: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'volatile u16 *' {aka 'volatile short unsigned int *'}
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+                          ~~~~~~~^~~~~~~~~~~
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    452	   8484	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:23:48 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:07 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:25:21 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'left_overflow':
+../src/main.c:89:6: error: 'led_16' undeclared (first use in this function)
+  if (led_16 == 0b1000000000000000) {
+      ^~~~~~
+../src/main.c:89:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:94:2: warning: implicit declaration of function 'XGpio_DiscreteWrite' [-Wimplicit-function-declaration]
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+  ^~~~~~~~~~~~~~~~~~~
+../src/main.c:94:23: error: 'LED_Gpio' undeclared (first use in this function)
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+                       ^~~~~~~~
+../src/main.c:94:33: error: 'LED_CHANNEL' undeclared (first use in this function)
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+                                 ^~~~~~~~~~~
+../src/main.c: In function 'right_overflow':
+../src/main.c:98:6: error: 'led_16' undeclared (first use in this function)
+  if (led_16 == 0b1) {
+      ^~~~~~
+../src/main.c:103:23: error: 'LED_Gpio' undeclared (first use in this function)
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+                       ^~~~~~~~
+../src/main.c:103:33: error: 'LED_CHANNEL' undeclared (first use in this function)
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+                                 ^~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+23:25:23 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'left_overflow':
+../src/main.c:89:6: error: 'led_16' undeclared (first use in this function)
+  if (led_16 == 0b1000000000000000) {
+      ^~~~~~
+../src/main.c:89:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:94:2: warning: implicit declaration of function 'XGpio_DiscreteWrite' [-Wimplicit-function-declaration]
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+  ^~~~~~~~~~~~~~~~~~~
+../src/main.c:94:23: error: 'LED_Gpio' undeclared (first use in this function)
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+                       ^~~~~~~~
+../src/main.c:94:33: error: 'LED_CHANNEL' undeclared (first use in this function)
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+                                 ^~~~~~~~~~~
+../src/main.c: In function 'right_overflow':
+../src/main.c:98:6: error: 'led_16' undeclared (first use in this function)
+  if (led_16 == 0b1) {
+      ^~~~~~
+../src/main.c:103:23: error: 'LED_Gpio' undeclared (first use in this function)
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+                       ^~~~~~~~
+../src/main.c:103:33: error: 'LED_CHANNEL' undeclared (first use in this function)
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+                                 ^~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+23:25:41 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    452	   8484	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:25:46 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:54 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    452	   8484	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:26:56 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:28:02 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'right_overflow':
+../src/main2.c:67:23: error: 'LED_Gpio' undeclared (first use in this function); did you mean 'led_gpio'?
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, led_16);
+                       ^~~~~~~~
+                       led_gpio
+../src/main2.c:67:23: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:29: src/main2.o] Error 1
+23:28:15 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    452	   8484	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:28:18 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:29:29 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c:70:6: error: redefinition of 'left_overflow'
+ void left_overflow() {
+      ^~~~~~~~~~~~~
+../src/main2.c:43:6: note: previous definition of 'left_overflow' was here
+ void left_overflow() {
+      ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main2.o] Error 1
+23:30:23 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+../src/main2.c: In function 'right_overflow':
+../src/main2.c:76:22: warning: passing argument 1 of 'XGpio_DiscreteWrite' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_DiscreteWrite(&led_16, LED_CHANNEL, led_16);
+                      ^~~~~~~
+In file included from ../src/main2.c:8:
+../../lab2_bsp/microblaze_0/include/xgpio.h:181:33: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'volatile u16 *' {aka 'volatile short unsigned int *'}
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+                          ~~~~~~~^~~~~~~~~~~
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    452	   8484	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:30:26 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:31:04 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    452	   8484	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:31:09 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:33:43 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Encoder_Handler':
+../src/main.c:116:2: warning: implicit declaration of function 'test_rbg_blink' [-Wimplicit-function-declaration]
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:306:6: warning: conflicting types for 'test_rbg_blink'
+ void test_rbg_blink() {
+      ^~~~~~~~~~~~~~
+../src/main.c:116:2: note: previous implicit declaration of 'test_rbg_blink' was here
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15360	    816	   8472	  24648	   6048	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:33:47 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:35:42 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main.c
+ 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+../src/main2.c: In function 'Encoder_Handler':
+../src/main2.c:117:2: warning: implicit declaration of function 'test_rbg_blink' [-Wimplicit-function-declaration]
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+../src/main2.c: At top level:
+../src/main2.c:307:6: warning: conflicting types for 'test_rbg_blink'
+ void test_rbg_blink() {
+      ^~~~~~~~~~~~~~
+../src/main2.c:117:2: note: previous implicit declaration of 'test_rbg_blink' was here
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:70: multiple definition of `toggle'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:24: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:72: multiple definition of `led_16'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:26: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `left_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:89: multiple definition of `left_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:43: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `right_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:98: multiple definition of `right_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:52: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:315: multiple definition of `main'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:248: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:35:54 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9720	    452	   8484	  18656	   48e0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:35:57 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:36:13 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/bs/le/m/crtinit.o: in function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:36:15 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+../src/main2.c: In function 'Encoder_Handler':
+../src/main2.c:117:2: warning: implicit declaration of function 'test_rbg_blink' [-Wimplicit-function-declaration]
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+../src/main2.c: At top level:
+../src/main2.c:307:6: warning: conflicting types for 'test_rbg_blink'
+ void test_rbg_blink() {
+      ^~~~~~~~~~~~~~
+../src/main2.c:117:2: note: previous implicit declaration of 'test_rbg_blink' was here
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15360	    816	   8472	  24648	   6048	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:36:18 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:43:49 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+In file included from ../src/main2.c:58:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main2.c: In function 'Encoder_Handler':
+../src/main2.c:118:2: warning: implicit declaration of function 'test_rbg_blink' [-Wimplicit-function-declaration]
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+../src/main2.c: At top level:
+../src/main2.c:308:6: warning: conflicting types for 'test_rbg_blink'
+ void test_rbg_blink() {
+      ^~~~~~~~~~~~~~
+../src/main2.c:118:2: note: previous implicit declaration of 'test_rbg_blink' was here
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15360	    816	   8472	  24648	   6048	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:43:52 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:52:00 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:7:
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab2_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c:33:1: warning: useless storage class specifier in empty declaration
+ };
+ ^
+Finished building: ../src/main.c
+ 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+../src/main2.c: In function 'initialization':
+../src/main2.c:510:16: error: 'sys_intctr' undeclared (first use in this function)
+  XIntc_Enable(&sys_intctr, XPAR_INTC_0_TMRCTR_0_VEC_ID);
+                ^~~~~~~~~~
+../src/main2.c:510:16: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:29: src/main2.o] Error 1
+23:52:24 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:70: multiple definition of `toggle'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:24: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:72: multiple definition of `led_16'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:26: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `LED_press':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:337: multiple definition of `LED_press'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:35: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `left_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:345: multiple definition of `left_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:43: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `right_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:354: multiple definition of `right_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:52: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `timer_handler':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:365: multiple definition of `timer_handler'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:63: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `enc_handler':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:371: multiple definition of `enc_handler'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:69: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `initialization':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:501: multiple definition of `initialization'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:199: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `rgb_blink':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:542: multiple definition of `rgb_blink'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:240: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:550: multiple definition of `main'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:248: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+23:52:47 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9688	    452	   8476	  18616	   48b8	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:52:54 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:53:54 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+../src/main2.c: In function 'Encoder_Handler':
+../src/main2.c:117:2: warning: implicit declaration of function 'test_rbg_blink' [-Wimplicit-function-declaration]
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+../src/main2.c: At top level:
+../src/main2.c:307:6: warning: conflicting types for 'test_rbg_blink'
+ void test_rbg_blink() {
+      ^~~~~~~~~~~~~~
+../src/main2.c:117:2: note: previous implicit declaration of 'test_rbg_blink' was here
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15360	    816	   8472	  24648	   6048	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:54:06 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:57:24 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14984	    816	   8472	  24272	   5ed0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:57:27 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:57:52 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main2.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main2.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main2.d" -MT"src/main2.o" -o "src/main2.o" "../src/main2.c"
+../src/main2.c: In function 'Encoder_Handler':
+../src/main2.c:117:2: warning: implicit declaration of function 'test_rbg_blink' [-Wimplicit-function-declaration]
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+../src/main2.c: At top level:
+../src/main2.c:287:6: warning: conflicting types for 'test_rbg_blink'
+ void test_rbg_blink() {
+      ^~~~~~~~~~~~~~
+../src/main2.c:117:2: note: previous implicit declaration of 'test_rbg_blink' was here
+  test_rbg_blink();
+  ^~~~~~~~~~~~~~
+Finished building: ../src/main2.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14996	    816	   8476	  24288	   5ee0	lab2.elf
+Finished building: lab2.elf.size
+ 
+23:57:55 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+00:00:03 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/main2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:70: multiple definition of `toggle'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:69: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:72: multiple definition of `led_16'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:71: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `LED_Press':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:81: multiple definition of `LED_Press'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:80: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `left_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:89: multiple definition of `left_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:88: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `right_overflow':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:98: multiple definition of `right_overflow'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:97: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `Timer_Handler':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:107: multiple definition of `Timer_Handler'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:106: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `Encoder_Handler':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:113: multiple definition of `Encoder_Handler'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:112: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `test_rbg_blink':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:287: multiple definition of `test_rbg_blink'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:304: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `initialize':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:230: multiple definition of `initialize'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:227: first defined here
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/main2.o: in function `main':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main2.c:295: multiple definition of `main'; ./src/main.o:C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab2a\lab2a.sdk\lab2\Debug/../src/main.c:312: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab2.elf] Error 1
+00:00:14 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15348	    816	   8476	  24640	   6040	lab2.elf
+Finished building: lab2.elf.size
+ 
+00:01:05 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:324:22: error: expected declaration specifiers or '...' before '&' token
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, 1 << led_16);
+                      ^
+../src/main.c:60:21: error: expected declaration specifiers or '...' before numeric constant
+ #define LED_CHANNEL 1
+                     ^
+../src/main.c:324:33: note: in expansion of macro 'LED_CHANNEL'
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, 1 << led_16);
+                                 ^~~~~~~~~~~
+../src/main.c:324:46: error: expected declaration specifiers or '...' before numeric constant
+  XGpio_DiscreteWrite(&LED_Gpio, LED_CHANNEL, 1 << led_16);
+                                              ^
+../src/main.c:325:2: error: expected identifier or '(' before 'while'
+  while(1) {
+  ^~~~~
+../src/main.c:329:4: error: expected identifier or '(' before 'return'
+    return XST_SUCCESS;
+    ^~~~~~
+../src/main.c:330:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+00:01:11 **** Auto Build of configuration Debug for project lab2 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab2_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab2.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab2.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab2.elf  |tee "lab2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15252	    816	   8476	  24544	   5fe0	lab2.elf
+Finished building: lab2.elf.size
+ 
+00:01:14 **** Incremental Build of configuration Debug for project lab2 ****
+make all 
+make: Nothing to be done for 'all'.

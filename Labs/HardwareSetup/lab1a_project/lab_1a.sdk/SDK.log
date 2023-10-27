@@ -1,0 +1,13 @@
+17:46:38 INFO  : Registering command handlers for SDK TCF services
+17:46:38 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab1a_project\lab_1a.sdk\temp_xsdb_launch_script.tcl
+17:46:40 INFO  : XSCT server has started successfully.
+17:46:40 INFO  : Successfully done setting XSCT server connection channel  
+17:46:40 INFO  : Successfully done setting SDK workspace  
+17:46:40 INFO  : Processing command line option -hwspec C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab1a_project/lab_1a.sdk/system_wrapper.hdf.
+17:50:40 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\lab1a_project\lab_1a.sdk\temp_xsdb_launch_script.tcl
+17:50:42 INFO  : XSCT server has started successfully.
+17:50:42 INFO  : Successfully done setting XSCT server connection channel  
+17:50:43 INFO  : Successfully done setting SDK workspace  
+17:50:44 INFO  : Registering command handlers for SDK TCF services
+17:50:45 INFO  : Processing command line option -hwspec C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab1a_project/lab_1a.sdk/system_wrapper.hdf.
+17:50:45 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.

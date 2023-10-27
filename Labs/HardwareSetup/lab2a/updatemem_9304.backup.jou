@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Thu Oct 26 22:51:34 2023
+# Process ID: 9304
+# Current directory: C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2a
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/SDK/2019.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2a/lab2a.sdk/system_wrapper_hw_platform_0/system_wrapper.mmi -data C:/Xilinx/SDK/2019.1/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc system_i/microblaze_0 -bit C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2a/lab2a.sdk/system_wrapper_hw_platform_0/system_wrapper.bit -out C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2a/lab2a.sdk/system_wrapper_hw_platform_0/download.bit -force
+# Log file: C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2a/updatemem.log
+# Journal file: C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2a\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2019.1/scripts/updatemem/main.tcl -notrace

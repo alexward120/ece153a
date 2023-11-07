@@ -1,0 +1,241 @@
+/*****************************************************************************
+* lab2a.c for Lab2A of ECE 153a at UCSB
+* Date of the Last Update:  October 23,2014
+*****************************************************************************/
+
+#define AO_LAB2A
+
+#include "qpn_port.h"
+#include "bsp.h"
+#include "lab2a.h"
+#include "lcd.h"
+#include <math.h>
+
+
+typedef struct Lab2ATag  {               //Lab2A State machine
+	QActive super;
+}  Lab2A;
+
+int act_volume = 0;
+int stored_value = 0;
+int Mute = 0;
+int MainVolumeFlag = 0;
+int VolumeFlag = 0;
+int MainTextFlag = 0;
+int TextFlag = 0;
+
+/* Setup state machines */
+/**********************************************************************/
+static QState Lab2A_initial (Lab2A *me);
+static QState Lab2A_on      (Lab2A *me);
+static QState Lab2A_stateA  (Lab2A *me);
+static QState Lab2A_stateB  (Lab2A *me);
+
+/**********************************************************************/
+
+
+Lab2A AO_Lab2A;
+
+
+void Lab2A_ctor(void)  {
+	Lab2A *me = &AO_Lab2A;
+	QActive_ctor(&me->super, (QStateHandler)&Lab2A_initial);
+}
+
+
+QState Lab2A_initial(Lab2A *me) {
+	xil_printf("\n\rInitialization");
+    return Q_TRAN(&Lab2A_on);
+}
+
+QState Lab2A_on(Lab2A *me) {
+	switch (Q_SIG(me)) {
+		case Q_ENTRY_SIG: {
+			xil_printf("\n\rOn");
+			}
+			
+		case Q_INIT_SIG: {
+			return Q_TRAN(&Lab2A_stateA);
+			}
+	}
+	
+	return Q_SUPER(&QHsm_top);
+}
+
+void volumeUp(void) {
+	xil_printf("Volume Up: %d\n", act_volume);
+	setColor(0, 255, 0);
+	fillRect(act_volume+69, 90, act_volume+70, 110);
+	MainVolumeFlag = 1;
+	VolumeFlag = 1;
+}
+
+void volumeDown(void) {
+	xil_printf("Volume Down: %d\n", act_volume);
+	setColor(0, 0, 0);
+	fillRect(act_volume+70, 90, act_volume+71, 110);
+	MainVolumeFlag = 1;
+	VolumeFlag = 1;
+}
+
+void volumeToggle(int toggle) {
+	if (toggle == 1) {
+		setColor(0, 0, 0);
+		fillRect(70, 90, 170, 110);
+	} else {
+		setColor(0, 255, 0);
+		fillRect(69, 90, 70+act_volume, 110);
+		MainVolumeFlag = 1;
+		VolumeFlag = 1;
+	}
+}
+
+void onScreenText(char* text) {
+	setColor(255, 0, 255);
+	setColorBg(0, 0, 0);
+	setFont(SmallFont);
+	lcdPrint(text, 100, 140);
+	MainTextFlag = 1;
+	TextFlag = 1;
+}
+
+
+/* Create Lab2A_on state and do any initialization code if needed */
+/******************************************************************/
+
+QState Lab2A_stateA(Lab2A *me) {
+	switch (Q_SIG(me)) {
+		case Q_ENTRY_SIG: {
+			// xil_printf("Startup State A\n");
+			updateDisplay(me, 0, 0);
+			drawBackground();
+			return Q_HANDLED();
+		}
+
+		case ENCODER_UP: {
+			// xil_printf("Encoder Up from State A\n");
+			if (act_volume < 100) {
+				act_volume++;
+			}
+			else if (act_volume >= 100) {
+				act_volume = 100;
+			}
+			volumeUp();
+			return Q_HANDLED();
+		}
+
+		case ENCODER_DOWN: {
+			// xil_printf("Encoder Down from State A\n");
+			if (act_volume > 0) {
+				act_volume--;
+			}
+			else if (act_volume <= 0) {
+				act_volume = 0;
+			}
+			volumeDown();
+			return Q_HANDLED();
+		}
+
+		case ENCODER_CLICK: {
+			// xil_printf("Encoder Click from State A\n");
+			Mute = 1;
+			volumeToggle(Mute);
+			return Q_TRAN(&Lab2A_stateB);
+		}
+		
+		case BUTTON_LEFT: {
+			// xil_printf("Button Left from State A\n");
+			onScreenText("Left");
+			return Q_HANDLED();
+		}
+
+		case BUTTON_RIGHT: {
+			// xil_printf("Button Right from State A\n");
+			onScreenText("Right");
+			return Q_HANDLED();
+		}
+
+		case BUTTON_UP: {
+			// xil_printf("Button Up from State A\n");
+			onScreenText("Up");
+			return Q_HANDLED();
+		}
+
+		case BUTTON_DOWN: {
+			// xil_printf("Button Down from State A\n");
+			onScreenText("Down");
+			return Q_HANDLED();
+		}
+
+		case BUTTON_CENTER: {
+			// xil_printf("Button Center from State A\n");
+			onScreenText("Center");
+			return Q_HANDLED();
+		}
+	}
+
+	return Q_SUPER(&Lab2A_on);
+
+}
+
+QState Lab2A_stateB(Lab2A *me) {
+	switch (Q_SIG(me)) {
+		case Q_ENTRY_SIG: {
+			// xil_printf("Startup State B\n");
+			me->counter = timer_count;
+			updateDisplay(me, 0, 1);
+			return Q_HANDLED();
+		}
+		
+		case ENCODER_UP: {
+			// xil_printf("Encoder Up from State B\n");
+			return Q_HANDLED();
+		}
+
+		case ENCODER_DOWN: {
+			// xil_printf("Encoder Down from State B\n");
+			return Q_HANDLED();
+		}
+
+		case ENCODER_CLICK:  {
+			// xil_printf("Changing State\n");
+			Mute = 0;
+			volumeToggle(Mute);
+			return Q_TRAN(&Lab2A_stateA);
+		}
+
+		case BUTTON_LEFT: {
+			// xil_printf("Button Left from State B\n");
+			onScreenText("Left");
+			return Q_HANDLED();
+		}
+
+		case BUTTON_RIGHT: {
+			// xil_printf("Button Right from State B\n");
+			onScreenText("Right");
+			return Q_HANDLED();
+		}
+
+		case BUTTON_UP: {
+			// xil_printf("Button Up from State B\n");
+			onScreenText("Up");
+			return Q_HANDLED();
+		}
+
+		case BUTTON_DOWN: {
+			// xil_printf("Button Down from State B\n");
+			onScreenText("Down");
+			return Q_HANDLED();
+		}
+
+		case BUTTON_CENTER: {
+			// xil_printf("Button Center from State B\n");
+			onScreenText("Center");
+			return Q_HANDLED();
+		}
+	}
+
+	return Q_SUPER(&Lab2A_on);
+
+}
+

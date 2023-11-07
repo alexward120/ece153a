@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_xbar_0_synth_1" LaunchDir="C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2b/lab2b.runs/system_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_clk_wiz_0_0_synth_1" LaunchDir="C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2b/lab2b.runs/system_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_gpio_0_6_synth_1" LaunchDir="C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2b/lab2b.runs/system_axi_gpio_0_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_quad_spi_0_0_synth_1" LaunchDir="C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2b/lab2b.runs/system_axi_quad_spi_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2b/lab2b.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="system_xbar_0_synth_1"/>
+		<Parent Id="system_clk_wiz_0_0_synth_1"/>
+		<Parent Id="system_axi_gpio_0_6_synth_1"/>
+		<Parent Id="system_axi_quad_spi_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2b/lab2b.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_1"/>
+		<Parent Id="system_xbar_0_synth_1"/>
+		<Parent Id="system_clk_wiz_0_0_synth_1"/>
+		<Parent Id="system_axi_gpio_0_6_synth_1"/>
+		<Parent Id="system_axi_quad_spi_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

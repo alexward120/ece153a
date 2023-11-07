@@ -54,7 +54,8 @@ enum STATES {
 		S2 = 0b00,
 		S3 = 0b10
 };
-
+void AQUABLUE(); //drawing background function
+void RETEXT(); //function that displays error text
 // void debounceInterrupt(); // Write This function
 
 /* ----- New Timer Handler ----- */
@@ -69,8 +70,7 @@ void TimerCounterHandler(void *CallBackRef)
 		}
 		if (VolumeTimeOut > 3069) {
 			//printf("Timed Out");
-			setColor(0, 0, 0);
-			fillRect(70, 90, 170, 110);
+			DrawRectArea(2);
 			MainVolumeFlag = 0;
 		}
 	}
@@ -82,7 +82,7 @@ void TimerCounterHandler(void *CallBackRef)
 		}
 		if (TextTimeOut > 3069) {
 			//printf("Timed Out");
-			RETEXT();
+			DrawRectArea(3);
 			MainTextFlag = 0;
 		}
 
@@ -116,9 +116,9 @@ void BSP_init(void) {
 	XGpio_InterruptGlobalEnable(&btn);
 
 	/* ----- New Timer Setup ----- */
-	Status = XTmrCtr_Initialize(&sys_tmrctr, XPAR_AXI_TIMER_0_DEVICE_ID);
-	Status = XIntc_Initialize(&sys_intctr, XPAR_INTC_0_DEVICE_ID);
-	Status = XIntc_Connect(&sys_intctr, XPAR_MICROBLAZE_0_AXI_INTC_AXI_TIMER_0_INTERRUPT_INTR,
+	XTmrCtr_Initialize(&sys_tmrctr, XPAR_AXI_TIMER_0_DEVICE_ID);
+	XIntc_Initialize(&sys_intctr, XPAR_INTC_0_DEVICE_ID);
+	XIntc_Connect(&sys_intctr, XPAR_MICROBLAZE_0_AXI_INTC_AXI_TIMER_0_INTERRUPT_INTR,
 				(XInterruptHandler)XTmrCtr_InterruptHandler,
 				(void *)&sys_tmrctr);
 	XIntc_Enable(&sys_intctr, XPAR_MICROBLAZE_0_AXI_INTC_AXI_TIMER_0_INTERRUPT_INTR);
@@ -130,10 +130,10 @@ void BSP_init(void) {
 
 
 	/* ----- Initialize LCD ----- */
-	status = XGpio_Initialize(&dc, XPAR_SPI_DC_DEVICE_ID);
+	XGpio_Initialize(&dc, XPAR_SPI_DC_DEVICE_ID);
 	XGpio_SetDataDirection(&dc, 1, 0x0);
 	spiConfig = XSpi_LookupConfig(XPAR_SPI_DEVICE_ID);
-	status = XSpi_CfgInitialize(&spi, spiConfig, spiConfig->BaseAddress);
+	XSpi_CfgInitialize(&spi, spiConfig, spiConfig->BaseAddress);
 	XSpi_Reset(&spi);
 	controlReg = XSpi_GetControlReg(&spi);
 	XSpi_SetControlReg(&spi,
@@ -156,6 +156,7 @@ void QF_onStartup(void) {                 /* entered with interrupts locked */
 	clrScr();
 	//GREEN();
 	AQUABLUE();
+	xil_printf("ready to run\n");
 
 	// Variables for reading Microblaze registers to debug your interrupts.
 //	{
@@ -176,32 +177,41 @@ void QF_onStartup(void) {                 /* entered with interrupts locked */
 //	}
 }
 
+void DrawRectArea(int row_val) {
+	int NewRow = row_val*40;
+	for(int Col=1; Col < 5; Col++) {
+		int NewCol = Col*40;
+		for (int y=0; y<40; y++) {
+			int blue = 2*ceil(y/2);
+			setColor(0, 255,255);
+			drawHLine(0+NewCol, y+NewRow, 20-(blue/2));
+			setColor(0, 0, 255);
+			drawHLine(20-(blue/2)+NewCol, y+NewRow, blue);
+			setColor(0,255,255);
+			drawHLine(20+(blue/2)+NewCol, y+NewRow, 20-(blue/2));
+		}
+	}
+}
+
 void AQUABLUE() {
 	clrScr();
 	for (int Row = 0; Row<8; Row++) {
 		int NewRow = Row*40;
 		for (int Col = 0; Col<6; Col++) {
 			int NewCol = Col*40;
-			if ((Row == 1 || Row == 2 || Row == 3) && (Col == 1 || Col == 2 || Col == 3 || Col == 4)) {
-				//Nothing
-			} else {
 			for (int y = 0; y<40; y++) {
 				int blue = 2*ceil(y/2);
 				setColor(0, 255,255);
-				drawHLine(0+NewCol, y+NewRow, 20-(blue/2));
+				drawHSLine(0+NewCol, y+NewRow, 20-(blue/2));
 				setColor(0, 0, 255);
-				drawHLine(20-(blue/2)+NewCol, y+NewRow, blue);
+				drawHSLine(20-(blue/2)+NewCol, y+NewRow, blue);
 				setColor(0,255,255);
-				drawHLine(20+(blue/2)+NewCol, y+NewRow, 20-(blue/2));
-			}
+				drawHSLine(20+(blue/2)+NewCol, y+NewRow, 20-(blue/2));
 			}
 		}
 	}
-	setColor(0, 255, 0);
-	setColorBg(0, 0, 0);
-	setFont(BigFont);
-	lcdPrint("VOLUME", 73, 50);
 }
+
 
 void RETEXT() {
 	setColor(0, 0, 0);

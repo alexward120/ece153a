@@ -20,7 +20,6 @@ enum Lab2ASignals {
 
 extern struct Lab2ATag AO_Lab2A;
 
-
 void Lab2A_ctor(void);
 void GpioHandler(void *CallbackRef);
 void TwistHandler(void *CallbackRef);

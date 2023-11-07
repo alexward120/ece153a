@@ -46,6 +46,9 @@
 
 #include "lcd.h"
 
+static int screenUpper[240][320];
+static int screenLower[240][320];
+
 // Global variables
 int fch;
 int fcl;
@@ -72,6 +75,8 @@ void LCD_Write_DATA(char VL) {
 		;
 	Xil_Out32(SPI_IISR, Xil_In32(SPI_IISR) | XSP_INTR_TX_EMPTY_MASK);
 }
+
+
 
 // Initialize LCD controller
 void initLCD(void) {
@@ -217,6 +222,29 @@ void drawHLine(int x, int y, int l) {
 	clrXY();
 }
 
+void drawHSLine(int x, int y, int l) {
+	int i;
+
+	if (l < 0) {
+		l = -l;
+		x -= l;
+	}
+
+	setXY(x, y, x + l, y);
+	for (i = 0; i < l + 1; i++) {
+		LCD_Write_DATA(fch);
+		LCD_Write_DATA(fcl);
+		if (y > 89 && y < 111) {
+			screenLower[x+i][y] = fcl;
+			screenUpper[x+i][y] = fch;
+		}
+
+
+	}
+//	xil_printf("fcl=%d, fch=%d", fcl,fch);
+	clrXY();
+}
+
 // Fill a rectangular 
 void fillRect(int x1, int y1, int x2, int y2) {
 	int i;
@@ -231,6 +259,26 @@ void fillRect(int x1, int y1, int x2, int y2) {
 	for (i = 0; i < (x2 - x1 + 1) * (y2 - y1 + 1); i++) {
 		LCD_Write_DATA(fch);
 		LCD_Write_DATA(fcl);
+	}
+
+	clrXY();
+}
+
+void fillRectBuffer(int x1, int y1, int x2, int y2) {
+
+	if (x1 > x2)
+		swap(int, x1, x2);
+
+	if (y1 > y2)
+		swap(int, y1, y2);
+
+	setXY(x1, y1, x2, y2);
+	for(int x=x1; x<=x2; x++) {
+		for (int y=y1; y <=y2; y++) {
+//			xil_printf("%d", screenLower[x][y]);
+			LCD_Write_DATA(screenUpper[x][y]);
+			LCD_Write_DATA(screenLower[x][y]);
+		}
 	}
 
 	clrXY();

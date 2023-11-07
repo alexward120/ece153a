@@ -76,15 +76,14 @@ void VolumeUp() {
 void VolumeDown() {
 	//printf("Volume: %d\n", act_volume);
 	setColor(0, 0, 0);
-	fillRect(act_volume+70, 90, act_volume+71, 110);
+	fillRectBuffer(act_volume+70, 90, act_volume+71, 110);
 	MainVolumeFlag = 1;
 	VolumeFlag = 1;
 }
 
 void VolumeToggle(int toggle) {
 	if (toggle == 1) {
-		setColor(0, 0, 0);
-		fillRect(70, 90, 170, 110);
+		DrawRectArea(2);
 	} else {
 		setColor(0, 255, 0);
 		fillRect(70, 90, 70+act_volume, 110);

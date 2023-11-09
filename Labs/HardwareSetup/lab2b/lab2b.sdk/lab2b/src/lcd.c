@@ -273,8 +273,8 @@ void fillRectBuffer(int x1, int y1, int x2, int y2) {
 		swap(int, y1, y2);
 
 	setXY(x1, y1, x2, y2);
-	for(int x=x1; x<=x2; x++) {
-		for (int y=y1; y <=y2; y++) {
+	for (int y=y1; y <=y2; y++) {
+		for(int x=x1; x<=x2; x++){
 //			xil_printf("%d", screenLower[x][y]);
 			LCD_Write_DATA(screenUpper[x][y]);
 			LCD_Write_DATA(screenLower[x][y]);

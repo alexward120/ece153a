@@ -67,7 +67,7 @@ QState Lab2A_on(Lab2A *me) {
 
 void VolumeUp() {
 	//printf("Volume: %d\n", act_volume);
-	setColor(0, 255, 0);
+	setColor(255, 0, 0);
 	fillRect(act_volume+69, 90, act_volume+70, 110);
 	MainVolumeFlag = 1;
 	VolumeFlag = 1;
@@ -85,7 +85,7 @@ void VolumeToggle(int toggle) {
 	if (toggle == 1) {
 		DrawRectArea(2);
 	} else {
-		setColor(0, 255, 0);
+		setColor(255, 0, 0);
 		fillRect(70, 90, 70+act_volume, 110);
 		MainVolumeFlag = 1;
 		VolumeFlag = 1;

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov  2 15:43:22 2023
+# Process ID: 10060
+# Current directory: C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2b/lab2b.runs/system_axi_quad_spi_0_0_synth_1
+# Command line: vivado.exe -log system_axi_quad_spi_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axi_quad_spi_0_0.tcl
+# Log file: C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2b/lab2b.runs/system_axi_quad_spi_0_0_synth_1/system_axi_quad_spi_0_0.vds
+# Journal file: C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/lab2b/lab2b.runs/system_axi_quad_spi_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_axi_quad_spi_0_0.tcl -notrace

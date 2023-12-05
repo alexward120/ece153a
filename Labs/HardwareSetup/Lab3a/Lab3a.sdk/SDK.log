@@ -407,3 +407,52 @@ con
 ----------------End of Script----------------
 
 18:44:42 INFO  : Launch script is exported to file 'C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3a\Lab3a.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_lab3a.elf_on_local.tcl'
+19:09:04 INFO  : Registering command handlers for SDK TCF services
+19:09:05 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3a\Lab3a.sdk\temp_xsdb_launch_script.tcl
+19:09:08 INFO  : XSCT server has started successfully.
+19:09:08 INFO  : Successfully done setting XSCT server connection channel  
+19:09:10 INFO  : Successfully done setting SDK workspace  
+19:09:10 INFO  : Processing command line option -hwspec C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/Lab3a/Lab3a.sdk/system_wrapper.hdf.
+19:09:13 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+19:09:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B62099A" && level==0} -index 0' command is executed.
+19:09:29 INFO  : FPGA configured successfully with bitstream "C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/Lab3a/Lab3a.sdk/system_wrapper_hw_platform_0/download.bit"
+19:09:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B62099A" && level==0} -index 0' command is executed.
+19:09:39 INFO  : 'fpga -state' command is executed.
+19:09:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:40 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B62099A' is selected.
+19:09:40 INFO  : 'jtag frequency' command is executed.
+19:09:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:09:40 INFO  : Context for processor 'microblaze_0' is selected.
+19:09:40 INFO  : System reset is completed.
+19:09:43 INFO  : 'after 3000' command is executed.
+19:09:43 INFO  : Context for processor 'microblaze_0' is selected.
+19:09:43 INFO  : The application 'C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/Lab3a/Lab3a.sdk/lab3a/Debug/lab3a.elf' is downloaded to processor 'microblaze_0'.
+19:09:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B62099A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B62099A"} -index 0
+dow C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/Lab3a/Lab3a.sdk/lab3a/Debug/lab3a.elf
+----------------End of Script----------------
+
+19:09:43 INFO  : Memory regions updated for context MicroBlaze #0
+19:09:43 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+19:09:43 INFO  : Context for processor 'microblaze_0' is selected.
+19:09:43 INFO  : 'con' command is executed.
+19:09:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B62099A"} -index 0
+con
+----------------End of Script----------------
+
+19:09:43 INFO  : Launch script is exported to file 'C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3a\Lab3a.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_lab3a.elf_on_local.tcl'
+19:10:46 INFO  : Disconnected from the channel tcfchan#1.
+13:59:58 INFO  : Registering command handlers for SDK TCF services
+13:59:58 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3a\Lab3a.sdk\temp_xsdb_launch_script.tcl
+14:00:00 INFO  : XSCT server has started successfully.
+14:00:00 INFO  : Successfully done setting XSCT server connection channel  
+14:00:00 INFO  : Successfully done setting SDK workspace  
+14:00:00 INFO  : Processing command line option -hwspec C:/Users/zande/Documents/VSCODE/SchoolStuff/ece153a/Labs/HardwareSetup/Lab3a/Lab3a.sdk/system_wrapper.hdf.
+14:00:00 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.

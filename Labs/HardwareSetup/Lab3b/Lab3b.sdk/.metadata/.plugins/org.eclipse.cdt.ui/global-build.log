@@ -1,0 +1,2192 @@
+15:49:16 **** Build of project lab3b_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/sevenSeg_v1_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/sevenSeg_v1_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling sevenSeg..."
+In file included from sevenSeg_selftest.c:3:
+sevenSeg_selftest.c: In function 'SEVENSEG_Reg_SelfTest':
+sevenSeg.h:46:4: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^~~~~~~~~
+sevenSeg_selftest.c:50:4: note: in expansion of macro 'SEVENSEG_mWriteReg'
+    SEVENSEG_mWriteReg (baseaddr, write_loop_index*4, (write_loop_index+1)*READ_WRITE_MUL_FACTOR);
+    ^~~~~~~~~~~~~~~~~~
+sevenSeg.h:66:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     Xil_In32((BaseAddress) + (RegOffset))
+     ^~~~~~~~
+sevenSeg_selftest.c:52:9: note: in expansion of macro 'SEVENSEG_mReadReg'
+    if ( SEVENSEG_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+         ^~~~~~~~~~~~~~~~~
+sevenSeg_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+15:49:22 **** Auto Build of project lab3b_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/sevenSeg_v1_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/sevenSeg_v1_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling sevenSeg..."
+In file included from sevenSeg_selftest.c:3:
+sevenSeg_selftest.c: In function 'SEVENSEG_Reg_SelfTest':
+sevenSeg.h:46:4: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^~~~~~~~~
+sevenSeg_selftest.c:50:4: note: in expansion of macro 'SEVENSEG_mWriteReg'
+    SEVENSEG_mWriteReg (baseaddr, write_loop_index*4, (write_loop_index+1)*READ_WRITE_MUL_FACTOR);
+    ^~~~~~~~~~~~~~~~~~
+sevenSeg.h:66:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     Xil_In32((BaseAddress) + (RegOffset))
+     ^~~~~~~~
+sevenSeg_selftest.c:52:9: note: in expansion of macro 'SEVENSEG_mReadReg'
+    if ( SEVENSEG_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+         ^~~~~~~~~~~~~~~~~
+sevenSeg_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+15:49:27 **** Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab3b.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab3b.elf  |tee "lab3b.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2824	    344	   3104	   6272	   1880	lab3b.elf
+Finished building: lab3b.elf.size
+ 
+15:49:29 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:24 **** Auto Build of project lab3b_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+15:51:29 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab3b.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab3b.elf  |tee "lab3b.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2824	    344	   3104	   6272	   1880	lab3b.elf
+Finished building: lab3b.elf.size
+ 
+15:53:13 **** Clean-only build of configuration Debug for project lab3b ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  lab3b.elf.size  lab3b.elf
+ 
+15:53:13 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab3b.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab3b.elf  |tee "lab3b.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2824	    344	   8224	  11392	   2c80	lab3b.elf
+Finished building: lab3b.elf.size
+ 
+15:53:34 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+15:54:07 **** Clean-only build of configuration Debug for project lab3b ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  lab3b.elf.size  lab3b.elf
+ 
+15:54:07 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/bs/le/m/crtinit.o: in function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab3b.elf] Error 1
+15:54:27 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/fonts.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fonts.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/fonts.d" -MT"src/fonts.o" -o "src/fonts.o" "../src/fonts.c"
+Finished building: ../src/fonts.c
+ 
+Building file: ../src/lcd.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lcd.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lcd.d" -MT"src/lcd.o" -o "src/lcd.o" "../src/lcd.c"
+Finished building: ../src/lcd.c
+ 
+Building file: ../src/lcd_test.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lcd_test.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lcd_test.d" -MT"src/lcd_test.o" -o "src/lcd_test.o" "../src/lcd_test.c"
+Finished building: ../src/lcd_test.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/fonts.o ./src/lcd.o ./src/lcd_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab3b.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab3b.elf  |tee "lab3b.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16020	   7040	   8564	  31624	   7b88	lab3b.elf
+Finished building: lab3b.elf.size
+ 
+15:54:36 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+15:55:17 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+15:55:40 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:17 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/fonts.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fonts.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/fonts.d" -MT"src/fonts.o" -o "src/fonts.o" "../src/fonts.c"
+Finished building: ../src/fonts.c
+ 
+Building file: ../src/lcd.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lcd.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lcd.d" -MT"src/lcd.o" -o "src/lcd.o" "../src/lcd.c"
+Finished building: ../src/lcd.c
+ 
+Building file: ../src/lcd_test.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lcd_test.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lcd_test.d" -MT"src/lcd_test.o" -o "src/lcd_test.o" "../src/lcd_test.c"
+Finished building: ../src/lcd_test.c
+ 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592//65358979323846
+ 
+../src/bsp.c:46:8: warning: type defaults to 'int' in declaration of 'octave' [-Wimplicit-int]
+ extern octave;
+        ^~~~~~
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:117:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:121:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:122:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:130:34: error: 'extra_handler' undeclared (first use in this function); did you mean 'QStateHandler'?
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+                                  QStateHandler
+../src/bsp.c:130:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/bsp.c: In function 'QF_onStartup':
+../src/bsp.c:164:2: warning: implicit declaration of function 'InitLUT'; did you mean 'initLCD'? [-Wimplicit-function-declaration]
+  InitLUT();
+  ^~~~~~~
+  initLCD
+../src/bsp.c:166:2: warning: implicit declaration of function 'setOctave'; did you mean 'setstate'? [-Wimplicit-function-declaration]
+  setOctave(0);
+  ^~~~~~~~~
+  setstate
+../src/bsp.c:169:2: error: 'canHistogram' undeclared (first use in this function)
+  canHistogram = 0;
+  ^~~~~~~~~~~~
+../src/bsp.c: In function 'TwistHandler':
+../src/bsp.c:238:27: error: 'RESET_VALUE' undeclared (first use in this function)
+  while (finish < (start + RESET_VALUE/10000)) {
+                           ^~~~~~~~~~~
+../src/bsp.c:245:11: error: 'S0' undeclared (first use in this function); did you mean 'j0'?
+   state = S0;
+           ^~
+           j0
+../src/bsp.c:246:3: error: 'encoder_count' undeclared (first use in this function); did you mean 'encoderStatus'?
+   encoder_count = 4;
+   ^~~~~~~~~~~~~
+   encoderStatus
+../src/bsp.c:260:16: error: 'S1' undeclared (first use in this function); did you mean 'j1'?
+        state = S1;
+                ^~
+                j1
+../src/bsp.c:267:16: error: 'S3' undeclared (first use in this function)
+        state = S3;
+                ^~
+../src/bsp.c:289:16: error: 'S2' undeclared (first use in this function)
+        state = S2;
+                ^~
+../src/bsp.c:342:33: error: 'GPIO_CHANNEL1' undeclared (first use in this function); did you mean 'GPIO_CHANNEL'?
+   XGpio_InterruptClear(GpioPtr, GPIO_CHANNEL1); // Clearing interrupt
+                                 ^~~~~~~~~~~~~
+                                 GPIO_CHANNEL
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:348:32: error: 'BUTTON_CHANNEL' undeclared (first use in this function); did you mean 'GPIO_CHANNEL'?
+  XGpio_InterruptClear(GpioPtr, BUTTON_CHANNEL); // Clearing interrupt
+                                ^~~~~~~~~~~~~~
+                                GPIO_CHANNEL
+../src/bsp.c:353:27: error: 'RESET_VALUE' undeclared (first use in this function)
+  while (finish < (start + RESET_VALUE/10000)) {
+                           ^~~~~~~~~~~
+../src/bsp.c:358:41: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  ButtonPressStatus = XGpio_DiscreteRead(&btn, BUTTON_CHANNEL); // Check GPIO output
+                                         ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+make: *** [src/subdir.mk:65: src/bsp.o] Error 1
+22:22:37 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c:50:8: warning: type defaults to 'int' in declaration of 'octave' [-Wimplicit-int]
+ extern octave;
+        ^~~~~~
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'QF_onStartup':
+../src/bsp.c:177:2: warning: implicit declaration of function 'InitLUT'; did you mean 'initLCD'? [-Wimplicit-function-declaration]
+  InitLUT();
+  ^~~~~~~
+  initLCD
+../src/bsp.c:179:2: warning: implicit declaration of function 'setOctave'; did you mean 'setstate'? [-Wimplicit-function-declaration]
+  setOctave(0);
+  ^~~~~~~~~
+  setstate
+../src/bsp.c: In function 'QF_onIdle':
+../src/bsp.c:282:8: error: 'octaveSelect' undeclared (first use in this function); did you mean 'octave'?
+    if (octaveSelect == 1)
+        ^~~~~~~~~~~~
+        octave
+../src/bsp.c:282:8: note: each undeclared identifier is reported only once for each function it appears in
+../src/bsp.c: In function 'TwistHandler':
+../src/bsp.c:607:13: error: expected ';' before ':' token
+    state = 2:
+             ^
+             ;
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:666:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:688:23: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+  XGpio_InterruptClear(btn_gpio, XGPIO_IR_MASK); // Clearing interrupt
+                       ^~~~~~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:202:34: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+                           ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:663:9: warning: unused variable 'GpioPtr' [-Wunused-variable]
+  XGpio *GpioPtr = (XGpio *)CallbackRef;
+         ^~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+make: *** [src/subdir.mk:65: src/bsp.o] Error 1
+22:23:11 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/lcd_test.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lcd_test.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lcd_test.d" -MT"src/lcd_test.o" -o "src/lcd_test.o" "../src/lcd_test.c"
+Finished building: ../src/lcd_test.c
+ 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c:50:8: warning: type defaults to 'int' in declaration of 'octave' [-Wimplicit-int]
+ extern octave;
+        ^~~~~~
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'QF_onStartup':
+../src/bsp.c:177:2: warning: implicit declaration of function 'InitLUT'; did you mean 'initLCD'? [-Wimplicit-function-declaration]
+  InitLUT();
+  ^~~~~~~
+  initLCD
+../src/bsp.c:179:2: warning: implicit declaration of function 'setOctave'; did you mean 'setstate'? [-Wimplicit-function-declaration]
+  setOctave(0);
+  ^~~~~~~~~
+  setstate
+../src/bsp.c: In function 'QF_onIdle':
+../src/bsp.c:282:8: error: 'octaveSelect' undeclared (first use in this function); did you mean 'octave'?
+    if (octaveSelect == 1)
+        ^~~~~~~~~~~~
+        octave
+../src/bsp.c:282:8: note: each undeclared identifier is reported only once for each function it appears in
+../src/bsp.c: In function 'TwistHandler':
+../src/bsp.c:607:13: error: expected ';' before ':' token
+    state = 2:
+             ^
+             ;
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:666:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:688:23: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+  XGpio_InterruptClear(btn_gpio, XGPIO_IR_MASK); // Clearing interrupt
+                       ^~~~~~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:202:34: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+                           ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:663:9: warning: unused variable 'GpioPtr' [-Wunused-variable]
+  XGpio *GpioPtr = (XGpio *)CallbackRef;
+         ^~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+make: *** [src/subdir.mk:65: src/bsp.o] Error 1
+23:30:49 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/lcd.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lcd.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lcd.d" -MT"src/lcd.o" -o "src/lcd.o" "../src/lcd.c"
+Finished building: ../src/lcd.c
+ 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c:50:8: warning: type defaults to 'int' in declaration of 'octave' [-Wimplicit-int]
+ extern octave;
+        ^~~~~~
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'QF_onIdle':
+../src/bsp.c:296:13: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    else if (octaveSelect = 2)
+             ^~~~~~~~~~~~
+../src/bsp.c:310:13: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    else if (octaveSelect = 3)
+             ^~~~~~~~~~~~
+../src/bsp.c:324:13: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    else if (octaveSelect = 4)
+             ^~~~~~~~~~~~
+../src/bsp.c:338:13: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    else if (octaveSelect = 5)
+             ^~~~~~~~~~~~
+../src/bsp.c:352:13: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    else if (octaveSelect = 6)
+             ^~~~~~~~~~~~
+../src/bsp.c:366:13: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    else if (octaveSelect = 7)
+             ^~~~~~~~~~~~
+../src/bsp.c:380:13: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    else if (octaveSelect = 8)
+             ^~~~~~~~~~~~
+../src/bsp.c: In function 'TwistHandler':
+../src/bsp.c:607:13: error: expected ';' before ':' token
+    state = 2:
+             ^
+             ;
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:666:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:688:23: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+  XGpio_InterruptClear(btn_gpio, XGPIO_IR_MASK); // Clearing interrupt
+                       ^~~~~~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:202:34: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+                           ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:663:9: warning: unused variable 'GpioPtr' [-Wunused-variable]
+  XGpio *GpioPtr = (XGpio *)CallbackRef;
+         ^~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+make: *** [src/subdir.mk:65: src/bsp.o] Error 1
+23:32:37 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c:50:8: warning: type defaults to 'int' in declaration of 'octave' [-Wimplicit-int]
+ extern octave;
+        ^~~~~~
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'TwistHandler':
+../src/bsp.c:607:13: error: expected ';' before ':' token
+    state = 2:
+             ^
+             ;
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:666:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:688:23: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+  XGpio_InterruptClear(btn_gpio, XGPIO_IR_MASK); // Clearing interrupt
+                       ^~~~~~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:202:34: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+                           ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:663:9: warning: unused variable 'GpioPtr' [-Wunused-variable]
+  XGpio *GpioPtr = (XGpio *)CallbackRef;
+         ^~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+make: *** [src/subdir.mk:65: src/bsp.o] Error 1
+23:34:12 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'TwistHandler':
+../src/bsp.c:607:13: error: expected ';' before ':' token
+    state = 2:
+             ^
+             ;
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:666:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:688:23: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+  XGpio_InterruptClear(btn_gpio, XGPIO_IR_MASK); // Clearing interrupt
+                       ^~~~~~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:202:34: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+                           ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:663:9: warning: unused variable 'GpioPtr' [-Wunused-variable]
+  XGpio *GpioPtr = (XGpio *)CallbackRef;
+         ^~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+make: *** [src/subdir.mk:65: src/bsp.o] Error 1
+23:35:40 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c: In function 'TwistHandler':
+../src/bsp.c:607:13: error: expected ';' before ':' token
+    state = 2:
+             ^
+             ;
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:666:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:688:23: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+  XGpio_InterruptClear(btn_gpio, XGPIO_IR_MASK); // Clearing interrupt
+                       ^~~~~~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:202:34: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+                           ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:663:9: warning: unused variable 'GpioPtr' [-Wunused-variable]
+  XGpio *GpioPtr = (XGpio *)CallbackRef;
+         ^~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+make: *** [src/subdir.mk:65: src/bsp.o] Error 1
+23:36:59 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'TwistHandler':
+../src/bsp.c:607:13: error: expected ';' before ':' token
+    state = 2:
+             ^
+             ;
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:666:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:688:23: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+  XGpio_InterruptClear(btn_gpio, XGPIO_IR_MASK); // Clearing interrupt
+                       ^~~~~~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:202:34: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+                           ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:663:9: warning: unused variable 'GpioPtr' [-Wunused-variable]
+  XGpio *GpioPtr = (XGpio *)CallbackRef;
+         ^~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+make: *** [src/subdir.mk:65: src/bsp.o] Error 1
+23:37:48 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:666:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:688:23: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+  XGpio_InterruptClear(btn_gpio, XGPIO_IR_MASK); // Clearing interrupt
+                       ^~~~~~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:202:34: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+                           ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:663:9: warning: unused variable 'GpioPtr' [-Wunused-variable]
+  XGpio *GpioPtr = (XGpio *)CallbackRef;
+         ^~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+make: *** [src/subdir.mk:65: src/bsp.o] Error 1
+23:39:25 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:665:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:687:23: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+  XGpio_InterruptClear(btn_gpio, XGPIO_IR_MASK); // Clearing interrupt
+                       ^~~~~~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:202:34: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'XGpio' {aka 'struct <anonymous>'}
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+                           ~~~~~~~^~~~~~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+make: *** [src/subdir.mk:65: src/bsp.o] Error 1
+23:39:48 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:665:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+Finished building: ../src/bsp.c
+ 
+Building file: ../src/complex.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/complex.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/complex.d" -MT"src/complex.o" -o "src/complex.o" "../src/complex.c"
+Finished building: ../src/complex.c
+ 
+Building file: ../src/fft.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fft.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/fft.d" -MT"src/fft.o" -o "src/fft.o" "../src/fft.c"
+In file included from ../src/fft.c:3:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/fft.c:1:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+Finished building: ../src/fft.c
+ 
+Building file: ../src/lab2a.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2a.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab2a.d" -MT"src/lab2a.o" -o "src/lab2a.o" "../src/lab2a.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/lab2a.c:12:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/lab2a.c:32:12: warning: 'freqOffset' initialized and declared 'extern'
+ extern int freqOffset = 0;
+            ^~~~~~~~~~
+../src/lab2a.c:37:1: error: unknown type name 'cahr'; did you mean 'char'?
+ cahr FreqStr[4];
+ ^~~~
+ char
+../src/lab2a.c: In function 'Lab2A_on':
+../src/lab2a.c:86:3: warning: implicit declaration of function 'Template'; did you mean 'setstate'? [-Wimplicit-function-declaration]
+   Template();
+   ^~~~~~~~
+   setstate
+../src/lab2a.c: In function 'Lab2A_stateA':
+../src/lab2a.c:105:3: warning: implicit declaration of function 'Menu_stateA'; did you mean 'Lab2A_stateA'? [-Wimplicit-function-declaration]
+   Menu_stateA();
+   ^~~~~~~~~~~
+   Lab2A_stateA
+../src/lab2a.c: In function 'Lab2A_stateB':
+../src/lab2a.c:144:3: warning: implicit declaration of function 'Menu_stateB'; did you mean 'Lab2A_stateB'? [-Wimplicit-function-declaration]
+   Menu_stateB();
+   ^~~~~~~~~~~
+   Lab2A_stateB
+../src/lab2a.c: In function 'Lab2A_stateC':
+../src/lab2a.c:183:3: warning: implicit declaration of function 'Menu_stateC'; did you mean 'Lab2A_stateC'? [-Wimplicit-function-declaration]
+   Menu_stateC();
+   ^~~~~~~~~~~
+   Lab2A_stateC
+../src/lab2a.c: In function 'Lab2A_stateD':
+../src/lab2a.c:222:3: warning: implicit declaration of function 'Menu_stateD'; did you mean 'Lab2A_stateD'? [-Wimplicit-function-declaration]
+   Menu_stateD();
+   ^~~~~~~~~~~
+   Lab2A_stateD
+../src/lab2a.c: In function 'Lab2A_SelectedA':
+../src/lab2a.c:260:3: warning: implicit declaration of function 'SelectedA'; did you mean 'Lab2A_SelectedA'? [-Wimplicit-function-declaration]
+   SelectedA();
+   ^~~~~~~~~
+   Lab2A_SelectedA
+../src/lab2a.c:281:3: warning: implicit declaration of function 'UpdateFrequency' [-Wimplicit-function-declaration]
+   UpdateFrequency(freqOffset + extfreq);
+   ^~~~~~~~~~~~~~~
+../src/lab2a.c:282:3: warning: implicit declaration of function 'UpdateOct' [-Wimplicit-function-declaration]
+   UpdateOct(currOct);
+   ^~~~~~~~~
+../src/lab2a.c:283:3: warning: implicit declaration of function 'UpdateNote' [-Wimplicit-function-declaration]
+   UpdateNote(currNote);
+   ^~~~~~~~~~
+../src/lab2a.c:288:4: warning: implicit declaration of function 'drawError' [-Wimplicit-function-declaration]
+    drawError(error);
+    ^~~~~~~~~
+../src/lab2a.c:289:4: warning: implicit declaration of function 'drawErrorBar' [-Wimplicit-function-declaration]
+    drawErrorBar(error);
+    ^~~~~~~~~~~~
+../src/lab2a.c: In function 'Lab2A_SelectedB':
+../src/lab2a.c:304:3: warning: implicit declaration of function 'SelectedB'; did you mean 'Lab2A_SelectedB'? [-Wimplicit-function-declaration]
+   SelectedB();
+   ^~~~~~~~~
+   Lab2A_SelectedB
+../src/lab2a.c:307:3: warning: implicit declaration of function 'updateA' [-Wimplicit-function-declaration]
+   updateA(aValue);
+   ^~~~~~~
+../src/lab2a.c: In function 'Lab2A_SelectedD':
+../src/lab2a.c:446:3: warning: implicit declaration of function 'SelectedD'; did you mean 'Lab2A_SelectedD'? [-Wimplicit-function-declaration]
+   SelectedD();
+   ^~~~~~~~~
+   Lab2A_SelectedD
+../src/lab2a.c:481:3: warning: implicit declaration of function 'updateHistogram' [-Wimplicit-function-declaration]
+   updateHistogram();
+   ^~~~~~~~~~~~~~~
+../src/lab2a.c: At top level:
+../src/lab2a.c:489:6: warning: conflicting types for 'updateHistogram'
+ void updateHistogram()
+      ^~~~~~~~~~~~~~~
+../src/lab2a.c:481:3: note: previous implicit declaration of 'updateHistogram' was here
+   updateHistogram();
+   ^~~~~~~~~~~~~~~
+../src/lab2a.c: In function 'updateHistogram':
+../src/lab2a.c:514:2: warning: implicit declaration of function 'updateSpacing' [-Wimplicit-function-declaration]
+  updateSpacing();
+  ^~~~~~~~~~~~~
+../src/lab2a.c: At top level:
+../src/lab2a.c:517:6: warning: conflicting types for 'updateSpacing'
+ void updateSpacing()
+      ^~~~~~~~~~~~~
+../src/lab2a.c:514:2: note: previous implicit declaration of 'updateSpacing' was here
+  updateSpacing();
+  ^~~~~~~~~~~~~
+../src/lab2a.c:566:6: warning: conflicting types for 'Template'
+ void Template()
+      ^~~~~~~~
+../src/lab2a.c:86:3: note: previous implicit declaration of 'Template' was here
+   Template();
+   ^~~~~~~~
+../src/lab2a.c:572:6: warning: conflicting types for 'drawErrorBar'
+ void drawErrorBar(int error)
+      ^~~~~~~~~~~~
+../src/lab2a.c:289:4: note: previous implicit declaration of 'drawErrorBar' was here
+    drawErrorBar(error);
+    ^~~~~~~~~~~~
+../src/lab2a.c:589:6: warning: conflicting types for 'drawError'
+ void drawError(int error)
+      ^~~~~~~~~
+../src/lab2a.c:288:4: note: previous implicit declaration of 'drawError' was here
+    drawError(error);
+    ^~~~~~~~~
+../src/lab2a.c:698:6: warning: conflicting types for 'Menu_stateA'
+ void Menu_stateA()
+      ^~~~~~~~~~~
+../src/lab2a.c:105:3: note: previous implicit declaration of 'Menu_stateA' was here
+   Menu_stateA();
+   ^~~~~~~~~~~
+../src/lab2a.c:717:6: warning: conflicting types for 'Menu_stateB'
+ void Menu_stateB()
+      ^~~~~~~~~~~
+../src/lab2a.c:144:3: note: previous implicit declaration of 'Menu_stateB' was here
+   Menu_stateB();
+   ^~~~~~~~~~~
+../src/lab2a.c:736:6: warning: conflicting types for 'Menu_stateC'
+ void Menu_stateC()
+      ^~~~~~~~~~~
+../src/lab2a.c:183:3: note: previous implicit declaration of 'Menu_stateC' was here
+   Menu_stateC();
+   ^~~~~~~~~~~
+../src/lab2a.c:755:6: warning: conflicting types for 'Menu_stateD'
+ void Menu_stateD()
+      ^~~~~~~~~~~
+../src/lab2a.c:222:3: note: previous implicit declaration of 'Menu_stateD' was here
+   Menu_stateD();
+   ^~~~~~~~~~~
+../src/lab2a.c:774:6: warning: conflicting types for 'SelectedA'
+ void SelectedA()
+      ^~~~~~~~~
+../src/lab2a.c:260:3: note: previous implicit declaration of 'SelectedA' was here
+   SelectedA();
+   ^~~~~~~~~
+../src/lab2a.c:780:6: warning: conflicting types for 'SelectedB'
+ void SelectedB()
+      ^~~~~~~~~
+../src/lab2a.c:304:3: note: previous implicit declaration of 'SelectedB' was here
+   SelectedB();
+   ^~~~~~~~~
+../src/lab2a.c:786:6: warning: conflicting types for 'UpdateFrequency'
+ void UpdateFrequency(int freq)
+      ^~~~~~~~~~~~~~~
+../src/lab2a.c:281:3: note: previous implicit declaration of 'UpdateFrequency' was here
+   UpdateFrequency(freqOffset + extfreq);
+   ^~~~~~~~~~~~~~~
+../src/lab2a.c:802:6: warning: conflicting types for 'UpdateOct'
+ void UpdateOct(int oct)
+      ^~~~~~~~~
+../src/lab2a.c:282:3: note: previous implicit declaration of 'UpdateOct' was here
+   UpdateOct(currOct);
+   ^~~~~~~~~
+../src/lab2a.c:811:6: warning: conflicting types for 'UpdateNote'
+ void UpdateNote(int currNote)
+      ^~~~~~~~~~
+../src/lab2a.c:283:3: note: previous implicit declaration of 'UpdateNote' was here
+   UpdateNote(currNote);
+   ^~~~~~~~~~
+../src/lab2a.c:824:6: warning: conflicting types for 'updateA'
+ void updateA(int a)
+      ^~~~~~~
+../src/lab2a.c:307:3: note: previous implicit declaration of 'updateA' was here
+   updateA(aValue);
+   ^~~~~~~
+../src/lab2a.c:846:6: warning: conflicting types for 'SelectedD'
+ void SelectedD()
+      ^~~~~~~~~
+../src/lab2a.c:446:3: note: previous implicit declaration of 'SelectedD' was here
+   SelectedD();
+   ^~~~~~~~~
+make: *** [src/subdir.mk:65: src/lab2a.o] Error 1
+23:40:46 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/lab2a.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2a.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab2a.d" -MT"src/lab2a.o" -o "src/lab2a.o" "../src/lab2a.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/lab2a.c:12:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/lab2a.c:32:12: warning: 'freqOffset' initialized and declared 'extern'
+ extern int freqOffset = 0;
+            ^~~~~~~~~~
+../src/lab2a.c: In function 'Lab2A_on':
+../src/lab2a.c:86:3: warning: implicit declaration of function 'Template'; did you mean 'setstate'? [-Wimplicit-function-declaration]
+   Template();
+   ^~~~~~~~
+   setstate
+../src/lab2a.c: In function 'Lab2A_stateA':
+../src/lab2a.c:105:3: warning: implicit declaration of function 'Menu_stateA'; did you mean 'Lab2A_stateA'? [-Wimplicit-function-declaration]
+   Menu_stateA();
+   ^~~~~~~~~~~
+   Lab2A_stateA
+../src/lab2a.c: In function 'Lab2A_stateB':
+../src/lab2a.c:144:3: warning: implicit declaration of function 'Menu_stateB'; did you mean 'Lab2A_stateB'? [-Wimplicit-function-declaration]
+   Menu_stateB();
+   ^~~~~~~~~~~
+   Lab2A_stateB
+../src/lab2a.c: In function 'Lab2A_stateC':
+../src/lab2a.c:183:3: warning: implicit declaration of function 'Menu_stateC'; did you mean 'Lab2A_stateC'? [-Wimplicit-function-declaration]
+   Menu_stateC();
+   ^~~~~~~~~~~
+   Lab2A_stateC
+../src/lab2a.c: In function 'Lab2A_stateD':
+../src/lab2a.c:222:3: warning: implicit declaration of function 'Menu_stateD'; did you mean 'Lab2A_stateD'? [-Wimplicit-function-declaration]
+   Menu_stateD();
+   ^~~~~~~~~~~
+   Lab2A_stateD
+../src/lab2a.c: In function 'Lab2A_SelectedA':
+../src/lab2a.c:260:3: warning: implicit declaration of function 'SelectedA'; did you mean 'Lab2A_SelectedA'? [-Wimplicit-function-declaration]
+   SelectedA();
+   ^~~~~~~~~
+   Lab2A_SelectedA
+../src/lab2a.c:281:3: warning: implicit declaration of function 'UpdateFrequency' [-Wimplicit-function-declaration]
+   UpdateFrequency(freqOffset + extfreq);
+   ^~~~~~~~~~~~~~~
+../src/lab2a.c:282:3: warning: implicit declaration of function 'UpdateOct' [-Wimplicit-function-declaration]
+   UpdateOct(currOct);
+   ^~~~~~~~~
+../src/lab2a.c:283:3: warning: implicit declaration of function 'UpdateNote' [-Wimplicit-function-declaration]
+   UpdateNote(currNote);
+   ^~~~~~~~~~
+../src/lab2a.c:288:4: warning: implicit declaration of function 'drawError' [-Wimplicit-function-declaration]
+    drawError(error);
+    ^~~~~~~~~
+../src/lab2a.c:289:4: warning: implicit declaration of function 'drawErrorBar' [-Wimplicit-function-declaration]
+    drawErrorBar(error);
+    ^~~~~~~~~~~~
+../src/lab2a.c: In function 'Lab2A_SelectedB':
+../src/lab2a.c:304:3: warning: implicit declaration of function 'SelectedB'; did you mean 'Lab2A_SelectedB'? [-Wimplicit-function-declaration]
+   SelectedB();
+   ^~~~~~~~~
+   Lab2A_SelectedB
+../src/lab2a.c:307:3: warning: implicit declaration of function 'updateA' [-Wimplicit-function-declaration]
+   updateA(aValue);
+   ^~~~~~~
+../src/lab2a.c: In function 'Lab2A_SelectedD':
+../src/lab2a.c:446:3: warning: implicit declaration of function 'SelectedD'; did you mean 'Lab2A_SelectedD'? [-Wimplicit-function-declaration]
+   SelectedD();
+   ^~~~~~~~~
+   Lab2A_SelectedD
+../src/lab2a.c:481:3: warning: implicit declaration of function 'updateHistogram' [-Wimplicit-function-declaration]
+   updateHistogram();
+   ^~~~~~~~~~~~~~~
+../src/lab2a.c: At top level:
+../src/lab2a.c:489:6: warning: conflicting types for 'updateHistogram'
+ void updateHistogram()
+      ^~~~~~~~~~~~~~~
+../src/lab2a.c:481:3: note: previous implicit declaration of 'updateHistogram' was here
+   updateHistogram();
+   ^~~~~~~~~~~~~~~
+../src/lab2a.c: In function 'updateHistogram':
+../src/lab2a.c:514:2: warning: implicit declaration of function 'updateSpacing' [-Wimplicit-function-declaration]
+  updateSpacing();
+  ^~~~~~~~~~~~~
+../src/lab2a.c: At top level:
+../src/lab2a.c:517:6: warning: conflicting types for 'updateSpacing'
+ void updateSpacing()
+      ^~~~~~~~~~~~~
+../src/lab2a.c:514:2: note: previous implicit declaration of 'updateSpacing' was here
+  updateSpacing();
+  ^~~~~~~~~~~~~
+../src/lab2a.c:566:6: warning: conflicting types for 'Template'
+ void Template()
+      ^~~~~~~~
+../src/lab2a.c:86:3: note: previous implicit declaration of 'Template' was here
+   Template();
+   ^~~~~~~~
+../src/lab2a.c:572:6: warning: conflicting types for 'drawErrorBar'
+ void drawErrorBar(int error)
+      ^~~~~~~~~~~~
+../src/lab2a.c:289:4: note: previous implicit declaration of 'drawErrorBar' was here
+    drawErrorBar(error);
+    ^~~~~~~~~~~~
+../src/lab2a.c:589:6: warning: conflicting types for 'drawError'
+ void drawError(int error)
+      ^~~~~~~~~
+../src/lab2a.c:288:4: note: previous implicit declaration of 'drawError' was here
+    drawError(error);
+    ^~~~~~~~~
+../src/lab2a.c:698:6: warning: conflicting types for 'Menu_stateA'
+ void Menu_stateA()
+      ^~~~~~~~~~~
+../src/lab2a.c:105:3: note: previous implicit declaration of 'Menu_stateA' was here
+   Menu_stateA();
+   ^~~~~~~~~~~
+../src/lab2a.c:717:6: warning: conflicting types for 'Menu_stateB'
+ void Menu_stateB()
+      ^~~~~~~~~~~
+../src/lab2a.c:144:3: note: previous implicit declaration of 'Menu_stateB' was here
+   Menu_stateB();
+   ^~~~~~~~~~~
+../src/lab2a.c:736:6: warning: conflicting types for 'Menu_stateC'
+ void Menu_stateC()
+      ^~~~~~~~~~~
+../src/lab2a.c:183:3: note: previous implicit declaration of 'Menu_stateC' was here
+   Menu_stateC();
+   ^~~~~~~~~~~
+../src/lab2a.c:755:6: warning: conflicting types for 'Menu_stateD'
+ void Menu_stateD()
+      ^~~~~~~~~~~
+../src/lab2a.c:222:3: note: previous implicit declaration of 'Menu_stateD' was here
+   Menu_stateD();
+   ^~~~~~~~~~~
+../src/lab2a.c:774:6: warning: conflicting types for 'SelectedA'
+ void SelectedA()
+      ^~~~~~~~~
+../src/lab2a.c:260:3: note: previous implicit declaration of 'SelectedA' was here
+   SelectedA();
+   ^~~~~~~~~
+../src/lab2a.c:780:6: warning: conflicting types for 'SelectedB'
+ void SelectedB()
+      ^~~~~~~~~
+../src/lab2a.c:304:3: note: previous implicit declaration of 'SelectedB' was here
+   SelectedB();
+   ^~~~~~~~~
+../src/lab2a.c:786:6: warning: conflicting types for 'UpdateFrequency'
+ void UpdateFrequency(int freq)
+      ^~~~~~~~~~~~~~~
+../src/lab2a.c:281:3: note: previous implicit declaration of 'UpdateFrequency' was here
+   UpdateFrequency(freqOffset + extfreq);
+   ^~~~~~~~~~~~~~~
+../src/lab2a.c:802:6: warning: conflicting types for 'UpdateOct'
+ void UpdateOct(int oct)
+      ^~~~~~~~~
+../src/lab2a.c:282:3: note: previous implicit declaration of 'UpdateOct' was here
+   UpdateOct(currOct);
+   ^~~~~~~~~
+../src/lab2a.c:811:6: warning: conflicting types for 'UpdateNote'
+ void UpdateNote(int currNote)
+      ^~~~~~~~~~
+../src/lab2a.c:283:3: note: previous implicit declaration of 'UpdateNote' was here
+   UpdateNote(currNote);
+   ^~~~~~~~~~
+../src/lab2a.c:824:6: warning: conflicting types for 'updateA'
+ void updateA(int a)
+      ^~~~~~~
+../src/lab2a.c:307:3: note: previous implicit declaration of 'updateA' was here
+   updateA(aValue);
+   ^~~~~~~
+../src/lab2a.c:846:6: warning: conflicting types for 'SelectedD'
+ void SelectedD()
+      ^~~~~~~~~
+../src/lab2a.c:446:3: note: previous implicit declaration of 'SelectedD' was here
+   SelectedD();
+   ^~~~~~~~~
+Finished building: ../src/lab2a.c
+ 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/main.c:6:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/note.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/note.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/note.d" -MT"src/note.o" -o "src/note.o" "../src/note.c"
+../src/note.c: In function 'findNote':
+../src/note.c:19:8: warning: unused variable 'r' [-Wunused-variable]
+  float r;
+        ^
+At top level:
+../src/note.c:6:13: warning: 'notes' defined but not used [-Wunused-variable]
+ static char notes[12][3] = {"A ", "A#", "B ", "C ", "C#", "D ", "D#", "E ", "F ", "F#", "G ", "G#"};
+             ^~~~~
+Finished building: ../src/note.c
+ 
+Building file: ../src/qepn.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/qepn.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/qepn.d" -MT"src/qepn.o" -o "src/qepn.o" "../src/qepn.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/qepn.c:28:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+Finished building: ../src/qepn.c
+ 
+Building file: ../src/qfn.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/qfn.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/qfn.d" -MT"src/qfn.o" -o "src/qfn.o" "../src/qfn.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/qfn.c:28:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+Finished building: ../src/qfn.c
+ 
+Building file: ../src/qfn_init.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/qfn_init.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/qfn_init.d" -MT"src/qfn_init.o" -o "src/qfn_init.o" "../src/qfn_init.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/qfn_init.c:28:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+Finished building: ../src/qfn_init.c
+ 
+Building file: ../src/stream_grabber.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream_grabber.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/stream_grabber.d" -MT"src/stream_grabber.o" -o "src/stream_grabber.o" "../src/stream_grabber.c"
+Finished building: ../src/stream_grabber.c
+ 
+Building file: ../src/trig.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/trig.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/trig.d" -MT"src/trig.o" -o "src/trig.o" "../src/trig.c"
+Finished building: ../src/trig.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/bsp.o ./src/complex.o ./src/fft.o ./src/fonts.o ./src/lab2a.o ./src/lcd.o ./src/lcd_test.o ./src/main.o ./src/note.o ./src/platform.o ./src/qepn.o ./src/qfn.o ./src/qfn_init.o ./src/stream_grabber.o ./src/trig.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/lab2a.o: in function `Lab2A_SelectedA':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3b\Lab3b.sdk\lab3b\Debug/../src/lab2a.c:282: undefined reference to `currOct'
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/lab2a.o: in function `Lab2A_SelectedD':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3b\Lab3b.sdk\lab3b\Debug/../src/lab2a.c:482: undefined reference to `currOct'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab3b.elf] Error 1
+23:46:06 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:665:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+At top level:
+../src/bsp.c:189:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+Finished building: ../src/bsp.c
+ 
+Building file: ../src/lab2a.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2a.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab2a.d" -MT"src/lab2a.o" -o "src/lab2a.o" "../src/lab2a.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/lab2a.c:12:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/lab2a.c:32:12: warning: 'freqOffset' initialized and declared 'extern'
+ extern int freqOffset = 0;
+            ^~~~~~~~~~
+Finished building: ../src/lab2a.c
+ 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/main.c:6:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/bsp.o ./src/complex.o ./src/fft.o ./src/fonts.o ./src/lab2a.o ./src/lcd.o ./src/lcd_test.o ./src/main.o ./src/note.o ./src/platform.o ./src/qepn.o ./src/qfn.o ./src/qfn_init.o ./src/stream_grabber.o ./src/trig.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/lab2a.o: in function `Lab2A_SelectedA':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3b\Lab3b.sdk\lab3b\Debug/../src/lab2a.c:282: undefined reference to `currOct'
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/lab2a.o: in function `Lab2A_SelectedD':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3b\Lab3b.sdk\lab3b\Debug/../src/lab2a.c:482: undefined reference to `currOct'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab3b.elf] Error 1
+23:48:01 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/lab2a.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2a.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab2a.d" -MT"src/lab2a.o" -o "src/lab2a.o" "../src/lab2a.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/lab2a.c:12:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/lab2a.c:33:1: warning: data definition has no type or storage class
+ freqOffset = 0;
+ ^~~~~~~~~~
+../src/lab2a.c:33:1: warning: type defaults to 'int' in declaration of 'freqOffset' [-Wimplicit-int]
+Finished building: ../src/lab2a.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/bsp.o ./src/complex.o ./src/fft.o ./src/fonts.o ./src/lab2a.o ./src/lcd.o ./src/lcd_test.o ./src/main.o ./src/note.o ./src/platform.o ./src/qepn.o ./src/qfn.o ./src/qfn_init.o ./src/stream_grabber.o ./src/trig.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/lab2a.o: in function `Lab2A_SelectedA':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3b\Lab3b.sdk\lab3b\Debug/../src/lab2a.c:283: undefined reference to `currOct'
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/lab2a.o: in function `Lab2A_SelectedD':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3b\Lab3b.sdk\lab3b\Debug/../src/lab2a.c:483: undefined reference to `currOct'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab3b.elf] Error 1
+23:48:20 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/lab2a.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2a.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab2a.d" -MT"src/lab2a.o" -o "src/lab2a.o" "../src/lab2a.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/lab2a.c:12:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/lab2a.c:32:12: warning: 'freqOffset' initialized and declared 'extern'
+ extern int freqOffset = 0;
+            ^~~~~~~~~~
+Finished building: ../src/lab2a.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/bsp.o ./src/complex.o ./src/fft.o ./src/fonts.o ./src/lab2a.o ./src/lcd.o ./src/lcd_test.o ./src/main.o ./src/note.o ./src/platform.o ./src/qepn.o ./src/qfn.o ./src/qfn_init.o ./src/stream_grabber.o ./src/trig.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/lab2a.o: in function `Lab2A_SelectedA':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3b\Lab3b.sdk\lab3b\Debug/../src/lab2a.c:282: undefined reference to `currOct'
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: ./src/lab2a.o: in function `Lab2A_SelectedD':
+C:\Users\zande\Documents\VSCODE\SchoolStuff\ece153a\Labs\HardwareSetup\Lab3b\Lab3b.sdk\lab3b\Debug/../src/lab2a.c:482: undefined reference to `currOct'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: lab3b.elf] Error 1
+23:50:16 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/note.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/note.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/note.d" -MT"src/note.o" -o "src/note.o" "../src/note.c"
+../src/note.c: In function 'findNote':
+../src/note.c:19:8: warning: unused variable 'r' [-Wunused-variable]
+  float r;
+        ^
+At top level:
+../src/note.c:6:13: warning: 'notes' defined but not used [-Wunused-variable]
+ static char notes[12][3] = {"A ", "A#", "B ", "C ", "C#", "D ", "D#", "E ", "F ", "F#", "G ", "G#"};
+             ^~~~~
+Finished building: ../src/note.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/bsp.o ./src/complex.o ./src/fft.o ./src/fonts.o ./src/lab2a.o ./src/lcd.o ./src/lcd_test.o ./src/main.o ./src/note.o ./src/platform.o ./src/qepn.o ./src/qfn.o ./src/qfn_init.o ./src/stream_grabber.o ./src/trig.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab3b.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab3b.elf  |tee "lab3b.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64796	   7116	 106768	 178680	  2b9f8	lab3b.elf
+Finished building: lab3b.elf.size
+ 
+23:51:33 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/note.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/note.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/note.d" -MT"src/note.o" -o "src/note.o" "../src/note.c"
+Finished building: ../src/note.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/bsp.o ./src/complex.o ./src/fft.o ./src/fonts.o ./src/lab2a.o ./src/lcd.o ./src/lcd_test.o ./src/main.o ./src/note.o ./src/platform.o ./src/qepn.o ./src/qfn.o ./src/qfn_init.o ./src/stream_grabber.o ./src/trig.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab3b.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab3b.elf  |tee "lab3b.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64796	   7116	 106768	 178680	  2b9f8	lab3b.elf
+Finished building: lab3b.elf.size
+ 
+23:52:27 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:44 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+23:56:03 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+23:57:15 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+23:59:19 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+00:03:00 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/lab2a.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2a.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lab2a.d" -MT"src/lab2a.o" -o "src/lab2a.o" "../src/lab2a.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/lab2a.c:12:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/lab2a.c:32:12: warning: 'freqOffset' initialized and declared 'extern'
+ extern int freqOffset = 0;
+            ^~~~~~~~~~
+Finished building: ../src/lab2a.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/bsp.o ./src/complex.o ./src/fft.o ./src/fonts.o ./src/lab2a.o ./src/lcd.o ./src/lcd_test.o ./src/main.o ./src/note.o ./src/platform.o ./src/qepn.o ./src/qfn.o ./src/qfn_init.o ./src/stream_grabber.o ./src/trig.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab3b.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab3b.elf  |tee "lab3b.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64732	   7116	 106768	 178616	  2b9b8	lab3b.elf
+Finished building: lab3b.elf.size
+ 
+00:03:03 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+00:03:48 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:664:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+At top level:
+../src/bsp.c:188:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+Finished building: ../src/bsp.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/bsp.o ./src/complex.o ./src/fft.o ./src/fonts.o ./src/lab2a.o ./src/lcd.o ./src/lcd_test.o ./src/main.o ./src/note.o ./src/platform.o ./src/qepn.o ./src/qfn.o ./src/qfn_init.o ./src/stream_grabber.o ./src/trig.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab3b.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab3b.elf  |tee "lab3b.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64712	   7116	 106764	 178592	  2b9a0	lab3b.elf
+Finished building: lab3b.elf.size
+ 
+00:03:50 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.
+00:04:11 **** Auto Build of configuration Debug for project lab3b ****
+make all 
+Building file: ../src/bsp.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp.o" -I../../lab3b_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bsp.d" -MT"src/bsp.o" -o "src/bsp.o" "../src/bsp.c"
+In file included from ../src/qpn_port.h:38,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:120:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../lab3b_bsp/microblaze_0/include/xbasic_types.h:121:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/bsp.c:22:
+../src/trig.h:15: warning: "PI" redefined
+ #define PI 3.14159265
+ 
+In file included from ../src/bsp.c:19:
+../src/fft.h:28: note: this is the location of the previous definition
+ #define PI 3.141592 // 65358979323846
+ 
+../src/bsp.c: In function 'BSP_init':
+../src/bsp.c:130:19: warning: passing argument 1 of 'XGpio_Initialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+                   ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:169:29: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
+                      ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:134:24: warning: passing argument 1 of 'XGpio_InterruptEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
+                        ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:200:35: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+                            ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:135:30: warning: passing argument 1 of 'XGpio_InterruptGlobalEnable' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptGlobalEnable(&btn);
+                              ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:198:41: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ void XGpio_InterruptGlobalEnable(XGpio *InstancePtr);
+                                  ~~~~~~~^~~~~~~~~~~
+../src/bsp.c:143:34: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+  XTmrCtr_SetHandler(&sys_tmrctr, extra_handler, &sys_tmrctr);
+                                  ^~~~~~~~~~~~~
+In file included from ../src/bsp.c:26:
+../../lab3b_bsp/microblaze_0/include/xtmrctr.h:317:64: note: expected 'XTmrCtr_Handler' {aka 'void (*)(void *, unsigned char)'} but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+                                                ~~~~~~~~~~~~~~~~^~~~~~~
+../src/bsp.c: In function 'GpioHandler':
+../src/bsp.c:664:27: warning: passing argument 1 of 'XGpio_DiscreteRead' from incompatible pointer type [-Wincompatible-pointer-types]
+  btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+                           ^~~~
+In file included from ../src/qpn_port.h:34,
+                 from ../src/bsp.c:9:
+../../lab3b_bsp/microblaze_0/include/xgpio.h:180:31: note: expected 'XGpio *' {aka 'struct <anonymous> *'} but argument is of type 'int *'
+ u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
+                        ~~~~~~~^~~~~~~~~~~
+At top level:
+../src/bsp.c:188:14: warning: 'w' defined but not used [-Wunused-variable]
+ static float w[SAMPLES / DEC];
+              ^
+Finished building: ../src/bsp.c
+ 
+Building target: lab3b.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab3b_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "lab3b.elf"  ./src/bsp.o ./src/complex.o ./src/fft.o ./src/fonts.o ./src/lab2a.o ./src/lcd.o ./src/lcd_test.o ./src/main.o ./src/note.o ./src/platform.o ./src/qepn.o ./src/qfn.o ./src/qfn_init.o ./src/stream_grabber.o ./src/trig.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab3b.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lab3b.elf  |tee "lab3b.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  64716	   7116	 106768	 178600	  2b9a8	lab3b.elf
+Finished building: lab3b.elf.size
+ 
+00:04:13 **** Incremental Build of configuration Debug for project lab3b ****
+make all 
+make: Nothing to be done for 'all'.

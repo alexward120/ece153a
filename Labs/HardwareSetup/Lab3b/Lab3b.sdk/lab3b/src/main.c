@@ -30,31 +30,3 @@ int main(void)
 	QF_run();	  // inside of qfn.c
 	return 0;
 }
-
-void printDebugLog()
-{
-	int size = Q_DIM(QF_active);
-	xil_printf("Number of HSMs: %i\r\n", size);
-	for (int i = 0; i < size; i++)
-	{
-		xil_printf("\r\n");
-		if (QF_active[i].act == 0 || QF_active[i].act->prio != i)
-		{
-			xil_printf("HSM %i: not initialized.\r\n", i);
-			continue;
-		}
-		const QActiveCB *block = &(QF_active[i]);
-		QActive *act = block->act;
-		xil_printf("HSM %i: initialized\r\n", i);
-		xil_printf("Queue: %i/%i\r\n", act->nUsed, block->end);
-		int ind = act->tail;
-		for (int j = 0; j < act->nUsed; j++)
-		{
-			QSignal sig = block->queue[ind].sig;
-			xil_printf("\tEvent %i: %i\r\n", j, sig);
-			ind++;
-			if (ind >= block->end)
-				ind -= block->end;
-		}
-	}
-}

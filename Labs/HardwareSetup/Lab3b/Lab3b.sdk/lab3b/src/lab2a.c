@@ -193,7 +193,7 @@ QState Lab2A_stateC(Lab2A *me)
 	}
 	case ENCODER_CLICK:
 	{
-		return Q_TRAN(&Lab2A_SelectedC); // possibly change to selectedD
+		return Q_TRAN(&Lab2A_SelectedD); // possibly change to selectedC
 	}
 	case BTN_UP:
 	{
@@ -418,7 +418,7 @@ QState Lab2A_SelectedC(Lab2A *me)
 	{
 		float scalar = 17.96 * (extfreq / 7902.13);
 		freqOffset = (int)(scalar) * (aValue - 440);
-		xil_printf("freqOffset: %d\n\r", freqOffset);
+		// xil_printf("freqOffset: %d\n\r", freqOffset);
 		UpdateFrequency(freqOffset + extfreq);
 		UpdateOct(octave);
 		UpdateNote(currNote);
@@ -519,37 +519,19 @@ void updateSpacing()
 	setColorBg(0, 0, 0);
 	char spacingStr[2];
 	itoa(spacing, spacingStr, 10);
-	lcdPrint(spacingStr, 140, 280);
+	lcdPrint(spacingStr, 145, 280);
 }
 
-void drawRainbowNote()
+void drawTuneFork()
 {
-	int x = 175;
-	int y = 80;
-	setColor(148, 0, 211); // Violet
-	fillRect(x - 5, y + 5, x, y + 20);
-
-	setColor(75, 0, 130); // Indigo
-	fillRect(x + 1, y, x + 6, y + 25);
-
-	setColor(0, 0, 255); // Blue
-	fillRect(x + 7, y - 5, x + 12, y + 30);
-
-	setColor(0, 255, 0); // Green
-	fillRect(x + 13, y - 5, x + 18, y + 30);
-
-	setColor(255, 255, 0); // Yellow
-	fillRect(x + 19, y - 5, x + 24, y + 30);
-
-	setColor(255, 127, 0); // Orange
-	fillRect(x + 25, y, x + 30, y + 25);
-
-	setColor(255, 0, 0); // Red
-	fillRect(x + 31, y + 5, x + 36, y + 20);
-
-	setColor(128, 0, 0); // Maroon
-	fillRect(x + 37, y - 50, x + 42, y + 15);
-	fillRect(x + 42, y - 50, x + 50, y - 42);
+	int x = 210;
+	int y = 70;
+	setColor(255, 255, 255); // Violet
+	//draw a tune fork
+	fillRect(x - 10, y, x-5, y + 20); //bottom post
+	fillRect(x-15, y, x, y-2);  //crossbar
+	fillRect(x-17, y, x-15, y-45);  //left post
+	fillRect(x, y, x+2, y-45);  //right post
 }
 
 void MenuTitle()
@@ -557,13 +539,13 @@ void MenuTitle()
 	setFont(BigFont);
 	setColorBg(0, 0, 0);
 	setColor(255, 0, 0);
-	lcdPrint("INSTRUMENT", 40, 40);
-	lcdPrint("TUNER", 50, 60);
+	lcdPrint("CHROMATIC", 20, 40);
+	lcdPrint("TUNER", 52, 60);
 }
 
 void Template()
 {
-	drawRainbowNote();
+	drawTuneFork();
 	MenuTitle();
 }
 
@@ -615,7 +597,7 @@ void BackMenu()
 
 	setFont(SmallFont);
 	SelectedMenu();
-	lcdPrint("BACK TO MENU", xCoord, yCoord);
+	// lcdPrint("BACK TO MENU", xCoord, yCoord);
 }
 
 void A4_Title()
@@ -623,33 +605,8 @@ void A4_Title()
 	setFont(BigFont);
 	setColorBg(0, 0, 0);
 	setColor(255, 0, 0);
-	lcdPrint("A4 TUNING", 40, 40);
+	lcdPrint("A4 TUNING", 50, 40);
 	lcdPrint("SELECTION", 50, 60);
-}
-
-void Octave_Title()
-{
-	setFont(BigFont);
-	setColor(255, 0, 0);
-	setColorBg(0, 0, 0);
-	lcdPrint("Frequency:", 50, 20);
-
-	setFont(SmallFont);
-	lcdPrint("Cents:", 90, 280);
-	setColor(255, 215, 0);
-	lcdPrint("Octave:", 90, 265);
-
-	int yCoord = 240;
-	setColor(25, 255, 25); // green
-	fillRect(100, yCoord, 140, yCoord + 5);
-
-	setColor(255, 25, 25); // red
-	fillRect(0, yCoord, 60, yCoord + 5);
-	fillRect(180, yCoord, 240, yCoord + 5);
-
-	setColor(255, 255, 25); // yellow
-	fillRect(60, yCoord, 100, yCoord + 5);
-	fillRect(140, yCoord, 180, yCoord + 5);
 }
 
 void Tuner_Title()
@@ -657,12 +614,14 @@ void Tuner_Title()
 	setFont(BigFont);
 	setColor(255, 0, 0);
 	setColorBg(0, 0, 0);
-	lcdPrint("Frequency:", 50, 20);
+	lcdPrint("Frequency", 50, 20);
 
 	setFont(SmallFont);
 	lcdPrint("Cents:", 90, 280);
 	setColor(255, 215, 0);
 	lcdPrint("Octave:", 90, 265);
+	lcdPrint("Hz", 205, 108);
+	
 
 	int yCoord = 240;
 	setColor(25, 255, 25); // green
@@ -682,7 +641,7 @@ void Histogram_Title()
 	setFont(BigFont);
 	setColorBg(0, 0, 0);
 	setColor(255, 0, 0);
-	lcdPrint("FFT", 60, 40);
+	lcdPrint("   FFT", 50, 40);
 	lcdPrint("HISTOGRAM", 50, 60);
 	setColor(230, 230, 230);
 	drawHLine(20, 250, 200);
@@ -690,83 +649,83 @@ void Histogram_Title()
 	setColor(255, 215, 0);
 	lcdPrint("Octave:", 90, 265);
 	setColor(255, 0, 0);
-	lcdPrint("Spacing:", 75, 280);
+	lcdPrint("Spacing:", 82, 280);
 }
 
 void Menu_stateA()
 {
-	int yCoord = 230;
-	int xCoord = 70;
+	int yCoord = 175;
+	int xCoord = 60;
 
 	setFont(SmallFont);
 	SelectedMenu();
-	lcdPrint("AUTO   TUNING", xCoord, yCoord);
+	lcdPrint("  AUTO TUNING  ", xCoord, yCoord);
 
 	NotSelectedMenu();
-	lcdPrint("TUNE   SELECT", xCoord, yCoord + 13);
+	lcdPrint("  TUNE SELECT  ", xCoord, yCoord + 13);
 
 	NotSelectedMenu();
-	lcdPrint("OCTAVE SELECT", xCoord, yCoord + 26);
+	lcdPrint(" OCTAVE SELECT ", xCoord, yCoord + 26);
 
 	NotSelectedMenu();
-	lcdPrint("FFT HISTOGRAM", xCoord, yCoord + 39);
+	lcdPrint(" FFT HISTOGRAM ", xCoord, yCoord + 39);
 }
 
 void Menu_stateB()
 {
-	int yCoord = 230;
-	int xCoord = 70;
+	int yCoord = 175;
+	int xCoord = 60;
 
 	setFont(SmallFont);
 	NotSelectedMenu();
-	lcdPrint("AUTO   TUNING", xCoord, yCoord);
+	lcdPrint("  AUTO TUNING  ", xCoord, yCoord);
 
 	SelectedMenu();
-	lcdPrint("TUNE   SELECT", xCoord, yCoord + 13);
+	lcdPrint("  TUNE SELECT  ", xCoord, yCoord + 13);
 
 	NotSelectedMenu();
-	lcdPrint("OCTAVE SELECT", xCoord, yCoord + 26);
+	lcdPrint(" OCTAVE SELECT ", xCoord, yCoord + 26);
 
 	NotSelectedMenu();
-	lcdPrint("FFT HISTOGRAM", xCoord, yCoord + 39);
+	lcdPrint(" FFT HISTOGRAM ", xCoord, yCoord + 39);
 }
 
 void Menu_stateC()
 {
-	int yCoord = 230;
-	int xCoord = 70;
+	int yCoord = 175;
+	int xCoord = 60;
 
 	setFont(SmallFont);
 	NotSelectedMenu();
-	lcdPrint("AUTO   TUNING", xCoord, yCoord);
+	lcdPrint("  AUTO TUNING  ", xCoord, yCoord);
 
 	NotSelectedMenu();
-	lcdPrint("TUNE   SELECT", xCoord, yCoord + 13);
+	lcdPrint("  TUNE SELECT  ", xCoord, yCoord + 13);
 
 	SelectedMenu();
-	lcdPrint("OCTAVE SELECT", xCoord, yCoord + 26);
+	lcdPrint(" OCTAVE SELECT ", xCoord, yCoord + 26);
 
 	NotSelectedMenu();
-	lcdPrint("FFT HISTOGRAM", xCoord, yCoord + 39);
+	lcdPrint(" FFT HISTOGRAM ", xCoord, yCoord + 39);
 }
 
 void Menu_stateD()
 {
-	int yCoord = 230;
-	int xCoord = 70;
+	int yCoord = 175;
+	int xCoord = 60;
 
 	setFont(SmallFont);
 	NotSelectedMenu();
-	lcdPrint("AUTO   TUNING", xCoord, yCoord);
+	lcdPrint("  AUTO TUNING  ", xCoord, yCoord);
 
 	NotSelectedMenu();
-	lcdPrint("TUNE   SELECT", xCoord, yCoord + 13);
+	lcdPrint("  TUNE SELECT  ", xCoord, yCoord + 13);
 
 	NotSelectedMenu();
-	lcdPrint("OCTAVE SELECT", xCoord, yCoord + 26);
+	lcdPrint(" OCTAVE SELECT ", xCoord, yCoord + 26);
 
 	SelectedMenu();
-	lcdPrint("FFT HISTOGRAM", xCoord, yCoord + 39);
+	lcdPrint(" FFT HISTOGRAM ", xCoord, yCoord + 39);
 }
 
 void SelectedA()
@@ -794,12 +753,12 @@ void UpdateFrequency(int freq)
 		freqStr[i] = temp;
 		freq = freq / 10;
 	}
-	lcdPrint(freqStr, 50, 70);
+	lcdPrint(freqStr, 40, 70);
 }
 
 void UpdateOct(int oct)
 {
-	setFont(BigFont);
+	setFont(SmallFont);
 	setColor(255, 255, 255);
 	setColorBg(0, 0, 0);
 	octaveStr[0] = integers[oct];
@@ -809,13 +768,12 @@ void UpdateOct(int oct)
 void UpdateNote(int currNote)
 {
 	setFont(BigFont);
-	setColor(255, 255, 255);
+	setColor(0, 255, 255);
 	setColorBg(0, 0, 0);
 	if (extfreq > 80)
 	{
-		lcdPrint(notes[currNote], 50, 130);
+		lcdPrint(notes[currNote], 40, 130);
 		setColor(0, 0, 0);
-		fillRect(82, 130, 230, 146);
 	}
 }
 

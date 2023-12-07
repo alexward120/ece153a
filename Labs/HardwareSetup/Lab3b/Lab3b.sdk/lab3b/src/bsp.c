@@ -52,7 +52,6 @@ extern int octave;
 XTmrCtr sys_tmrctr;
 Xuint32 data;
 unsigned int time = 0;
-unsigned int coutns = 0;
 unsigned int ledNum = 1;
 
 XGpio led;
@@ -127,12 +126,12 @@ void BSP_init(void)
 	XGpio_InterruptGlobalEnable(&enc_gpio);
 
 	/*  ----- Intialize Button ----- */
-	XGpio_Initialize(&btn, XPAR_AXI_GPIO_BTN_DEVICE_ID);
-	XIntc_Connect(&sys_intctr, XPAR_INTC_0_GPIO_1_VEC_ID, (Xil_ExceptionHandler)GpioHandler, &btn);
+	XGpio_Initialize(&btn_gpio, XPAR_AXI_GPIO_BTN_DEVICE_ID);
+	XIntc_Connect(&sys_intctr, XPAR_INTC_0_GPIO_1_VEC_ID, (Xil_ExceptionHandler)GpioHandler, &btn_gpio);
 	XIntc_Enable(&sys_intctr, XPAR_INTC_0_GPIO_1_VEC_ID);
 
-	XGpio_InterruptEnable(&btn, GPIO_CHANNEL);
-	XGpio_InterruptGlobalEnable(&btn);
+	XGpio_InterruptEnable(&btn_gpio, GPIO_CHANNEL);
+	XGpio_InterruptGlobalEnable(&btn_gpio);
 
 	/* ----- New Timer Setup ----- */
 	XTmrCtr_Initialize(&sys_tmrctr, XPAR_AXI_TIMER_0_DEVICE_ID);
@@ -168,6 +167,7 @@ void BSP_init(void)
 	initLCD();
 	clrScr();
 }
+
 /*..........................................................................*/
 void QF_onStartup(void)
 { /* entered with interrupts locked */
@@ -225,6 +225,7 @@ int int_bufferMod8[128];
 static float qMod8[128];
 static float wMod8[128];
 
+int l;
 int ticks; // used for timer
 uint32_t Control;
 float frequency;
@@ -243,6 +244,7 @@ void read_fsl_values(float *q, float *q2, int n, int n2, int *int_buffer2, int d
 	stream_grabber_wait_enough_samples(512);
 	int sum = 0;
 	int sum2 = 0;
+	
 	for (int i = 0; i < n; i++)
 	{
 		sum += stream_grabber_read_sample(i);
@@ -262,7 +264,7 @@ void read_fsl_values(float *q, float *q2, int n, int n2, int *int_buffer2, int d
 		{
 			int_buffer2[i / decimate] = sum2 / decimate;
 			sum2 = 0;
-			x2 = int_buffer2[i / DEC];
+			x2 = int_buffer2[i / decimate];
 			q2[i / decimate] = 3.3 * x2 / 67108864.0;
 		}
 	}
@@ -621,7 +623,7 @@ void TwistHandler(void *CallbackRef)
 		{
 			state = 0;
 			ledRight();
-			QActive_postISR((QActive *)&AO_Lab2A, ENCODER_UP);
+			QActive_postISR((QActive *)&AO_Lab2A, ENCODER_DOWN);
 		}
 		break;
 	case 4:
@@ -645,7 +647,7 @@ void TwistHandler(void *CallbackRef)
 		{
 			state = 0;
 			ledLeft();
-			QActive_postISR((QActive *)&AO_Lab2A, ENCODER_DOWN);
+			QActive_postISR((QActive *)&AO_Lab2A, ENCODER_UP);
 		}
 		break;
 	}
@@ -661,7 +663,7 @@ void GpioHandler(void *CallbackRef)
 {
 	time = 0;
 	XTmrCtr_Start(&sys_tmrctr, 0);
-	btn = XGpio_DiscreteRead(&btn, GPIO_CHANNEL);
+	btn = XGpio_DiscreteRead(&btn_gpio, GPIO_CHANNEL);
 
 	if (btn == 1)
 	{

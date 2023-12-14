@@ -193,7 +193,7 @@ QState Lab2A_stateC(Lab2A *me)
 	}
 	case ENCODER_CLICK:
 	{
-		return Q_TRAN(&Lab2A_SelectedD); // possibly change to selectedC
+		return Q_TRAN(&Lab2A_SelectedC); // possibly change to selectedC
 	}
 	case BTN_UP:
 	{

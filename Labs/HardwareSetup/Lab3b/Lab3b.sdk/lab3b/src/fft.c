@@ -129,3 +129,4 @@ float fft(float *q, float *w, int n, int m, float sample_f)
 
 	return frequency;
 }
+
